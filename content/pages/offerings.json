@@ -24,6 +24,12 @@
         "padding": {
           "d": "2xl",
           "m": "xl"
+        },
+        "background": {
+          "angle": 180,
+          "from": "#061F28",
+          "to": "#0E4A55",
+          "type": "gradient"
         }
       },
       "blocks": [
@@ -90,15 +96,22 @@
         "padding": {
           "d": "md",
           "m": "md"
+        },
+        "background": {
+          "angle": 180,
+          "from": "#0E4A55",
+          "to": "#0E4A55",
+          "type": "gradient"
         }
       },
       "blocks": [
         {
           "id": "blk_rdk4f7as4p",
           "type": "component/sacred-divider",
-          "v": 1,
+          "v": 2,
           "fields": {
-            "line": "each one a doorway"
+            "line": "each one a doorway",
+            "emblem": "eye"
           }
         }
       ]
@@ -123,7 +136,13 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "angle": 180,
+          "from": "#0E4A55",
+          "to": "#0A2F4A",
+          "type": "gradient"
+        }
       },
       "blocks": [
         {
@@ -257,7 +276,13 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light-accent"
+        "colorTheme": "light-accent",
+        "background": {
+          "angle": 180,
+          "from": "#0A2F4A",
+          "to": "#0B1E3D",
+          "type": "gradient"
+        }
       },
       "blocks": [
         {
@@ -394,7 +419,13 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "angle": 180,
+          "from": "#0B1E3D",
+          "to": "#0E4A55",
+          "type": "gradient"
+        }
       },
       "blocks": [
         {
@@ -528,7 +559,13 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "dark"
+        "colorTheme": "dark-accent",
+        "background": {
+          "angle": 135,
+          "from": "#2B1F0B",
+          "to": "#4D3713",
+          "type": "gradient"
+        }
       },
       "blocks": [
         {
@@ -657,10 +694,16 @@
         "width": "narrow"
       },
       "style": {
-        "colorTheme": "light-accent",
+        "colorTheme": "brand",
         "padding": {
           "d": "xl",
           "m": "lg"
+        },
+        "background": {
+          "angle": 135,
+          "from": "#F6D9E4",
+          "to": "#F1DFB8",
+          "type": "gradient"
         }
       },
       "blocks": [

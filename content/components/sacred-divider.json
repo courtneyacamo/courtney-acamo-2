@@ -1,10 +1,29 @@
 {
   "name": "sacred-divider",
-  "label": "Sacred geometry divider",
-  "description": "A slim band with a golden seed-of-life emblem between two lotus-tipped lines, and an optional italic line beneath.",
-  "version": 1,
+  "label": "Sacred emblem divider",
+  "description": "A slim band with a golden sacred emblem — Seed of Life, Egyptian winged sun or Eye of Horus — between two gold lines, and an optional italic line beneath.",
+  "version": 2,
   "category": "features",
   "fields": {
+    "emblem": {
+      "kind": "select",
+      "label": "Emblem",
+      "options": [
+        {
+          "value": "winged-sun",
+          "label": "Winged sun"
+        },
+        {
+          "value": "eye",
+          "label": "Eye of Horus"
+        },
+        {
+          "value": "seed",
+          "label": "Seed of Life"
+        }
+      ],
+      "display": "segmented"
+    },
     "line": {
       "kind": "text",
       "label": "Italic line (optional)",
@@ -13,10 +32,11 @@
     }
   },
   "defaults": {
+    "emblem": "winged-sun",
     "line": "rooted in earth, open to light"
   },
-  "template": "<div class=\"sd\">\n  <svg class=\"sd__emblem\" viewBox=\"-150 -40 300 80\" aria-hidden=\"true\">\n    <path class=\"sd__rule\" d=\"M-150 0 H-52 M52 0 H150\"></path>\n    <path class=\"sd__diamond\" d=\"M-146 0 L-140 -5 L-134 0 L-140 5 Z M146 0 L140 -5 L134 0 L140 5 Z\"></path>\n    <g class=\"sd__seed\"><circle r=\"12\"></circle><circle cx=\"12\" r=\"12\"></circle><circle cx=\"-12\" r=\"12\"></circle><circle cx=\"6\" cy=\"10.4\" r=\"12\"></circle><circle cx=\"-6\" cy=\"10.4\" r=\"12\"></circle><circle cx=\"6\" cy=\"-10.4\" r=\"12\"></circle><circle cx=\"-6\" cy=\"-10.4\" r=\"12\"></circle><circle r=\"24\"></circle><circle r=\"30\" class=\"sd__dots\"></circle></g>\n  </svg>\n  {{#if line}}<p class=\"sd__line\">{{line}}</p>{{/if}}\n</div>",
-  "css": ".sd { --sd-gold: #B98A2E; display: flex; flex-direction: column; align-items: center; gap: var(--os-space-xs); text-align: center; }\n.sd__emblem { width: min(520px, 100%); height: auto; fill: none; stroke: var(--sd-gold); stroke-width: 1; }\n.sd__diamond { fill: var(--sd-gold); stroke: none; }\n.sd__seed { stroke-width: .9; }\n.sd__dots { stroke-dasharray: .8 3; }\n.sd__line { margin: 0; font-family: var(--os-font-heading); font-style: italic; font-size: var(--os-type-h3-font-size); color: var(--os-color-heading); }",
+  "template": "<div class=\"sd\" data-emblem=\"{{emblem}}\">\n  <svg class=\"sd__emblem sd__emblem--seed\" viewBox=\"-150 -40 300 80\" aria-hidden=\"true\">\n    <path class=\"sd__rule\" d=\"M-150 0 H-52 M52 0 H150\"></path>\n    <path class=\"sd__fill\" d=\"M-146 0 L-140 -5 L-134 0 L-140 5 Z M146 0 L140 -5 L134 0 L140 5 Z\"></path>\n    <g class=\"sd__seed\"><circle r=\"12\"></circle><circle cx=\"12\" r=\"12\"></circle><circle cx=\"-12\" r=\"12\"></circle><circle cx=\"6\" cy=\"10.4\" r=\"12\"></circle><circle cx=\"-6\" cy=\"10.4\" r=\"12\"></circle><circle cx=\"6\" cy=\"-10.4\" r=\"12\"></circle><circle cx=\"-6\" cy=\"-10.4\" r=\"12\"></circle><circle r=\"24\"></circle><circle r=\"30\" class=\"sd__dots\"></circle></g>\n  </svg>\n  <svg class=\"sd__emblem sd__emblem--winged-sun\" viewBox=\"-170 -45 340 80\" aria-hidden=\"true\">\n    <g class=\"sd__wing\"><path class=\"sd__fill sd__fill--soft\" d=\"M-20 -6 C-60 -30 -115 -34 -165 -22 C-118 -14 -70 -6 -22 6 Z\"></path><path d=\"M-22 0 C-62 -18 -112 -22 -150 -14\"></path><path d=\"M-22 6 C-60 -6 -105 -10 -138 -4\"></path><path d=\"M-24 12 C-58 6 -96 4 -124 8\"></path><path d=\"M-26 16 C-56 16 -84 18 -106 22\"></path></g>\n    <g class=\"sd__wing\" transform=\"scale(-1,1)\"><path class=\"sd__fill sd__fill--soft\" d=\"M-20 -6 C-60 -30 -115 -34 -165 -22 C-118 -14 -70 -6 -22 6 Z\"></path><path d=\"M-22 0 C-62 -18 -112 -22 -150 -14\"></path><path d=\"M-22 6 C-60 -6 -105 -10 -138 -4\"></path><path d=\"M-24 12 C-58 6 -96 4 -124 8\"></path><path d=\"M-26 16 C-56 16 -84 18 -106 22\"></path></g>\n    <circle class=\"sd__fill\" r=\"15\" cy=\"-2\"></circle><circle r=\"20\" cy=\"-2\"></circle><circle r=\"25\" cy=\"-2\" class=\"sd__dots\"></circle>\n  </svg>\n  <svg class=\"sd__emblem sd__emblem--eye\" viewBox=\"-150 -40 300 80\" aria-hidden=\"true\">\n    <path class=\"sd__rule\" d=\"M-150 0 H-58 M58 0 H150\"></path>\n    <path class=\"sd__fill\" d=\"M-146 0 L-140 -5 L-134 0 L-140 5 Z M146 0 L140 -5 L134 0 L140 5 Z\"></path>\n    <path d=\"M-34 -2 C-18 -16 14 -16 34 -2 C16 10 -16 10 -34 -2 Z\"></path>\n    <circle class=\"sd__fill\" cx=\"0\" cy=\"-3\" r=\"7\"></circle>\n    <path d=\"M-36 -17 C-14 -28 16 -26 38 -16\"></path>\n    <path d=\"M-4 7 L-12 30\"></path>\n    <path d=\"M8 7 C12 22 28 26 34 16 C38 8 28 4 25 12\"></path>\n  </svg>\n  {{#if line}}<p class=\"sd__line\">{{line}}</p>{{/if}}\n</div>",
+  "css": ".sd { --sd-gold: #D9B25F; display: flex; flex-direction: column; align-items: center; gap: var(--os-space-xs); text-align: center; }\n.sd__emblem { display: none; width: min(520px, 100%); height: auto; fill: none; stroke: var(--sd-gold); stroke-width: 1.1; stroke-linecap: round; filter: drop-shadow(0 0 10px color-mix(in oklab, var(--sd-gold) 45%, transparent)); }\n.sd[data-emblem=\"seed\"] .sd__emblem--seed, .sd[data-emblem=\"winged-sun\"] .sd__emblem--winged-sun, .sd[data-emblem=\"eye\"] .sd__emblem--eye { display: block; }\n.sd__fill { fill: var(--sd-gold); stroke: none; }\n.sd__fill--soft { fill: color-mix(in oklab, var(--sd-gold) 22%, transparent); stroke: var(--sd-gold); }\n.sd__seed { stroke-width: .9; }\n.sd__dots { stroke-dasharray: .8 3; }\n.sd__line { margin: 0; font-family: var(--os-font-heading); font-style: italic; font-size: var(--os-type-h3-font-size); color: var(--os-color-heading); }",
   "section": {
     "width": "narrow",
     "padding": {
@@ -28,5 +48,12 @@
     "purpose": "A sacred-geometry ornament that separates sections with an Egyptian-temple elegance.",
     "whenToUse": "Between two sections of the same theme, or at the top of a quiet section.",
     "avoid": "More than two per page."
+  },
+  "migrations": {
+    "1": {
+      "set": {
+        "emblem": "seed"
+      }
+    }
   }
 }

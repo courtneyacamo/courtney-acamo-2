@@ -26,6 +26,12 @@
         "padding": {
           "d": "xl",
           "m": "lg"
+        },
+        "background": {
+          "type": "gradient",
+          "from": "#061F28",
+          "to": "#0E4A55",
+          "angle": 180
         }
       },
       "blocks": [
@@ -89,15 +95,22 @@
         "padding": {
           "d": "md",
           "m": "md"
+        },
+        "background": {
+          "type": "gradient",
+          "from": "#0E4A55",
+          "to": "#0E4A55",
+          "angle": 180
         }
       },
       "blocks": [
         {
           "id": "blk_vz1rrmebja",
           "type": "component/sacred-divider",
-          "v": 1,
+          "v": 2,
           "fields": {
-            "line": ""
+            "line": "",
+            "emblem": "winged-sun"
           }
         }
       ]
@@ -122,7 +135,13 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "type": "gradient",
+          "from": "#0E4A55",
+          "to": "#0A2F4A",
+          "angle": 180
+        }
       },
       "blocks": [
         {
@@ -222,7 +241,13 @@
         "gap": "xl"
       },
       "style": {
-        "colorTheme": "light-accent"
+        "colorTheme": "light-accent",
+        "background": {
+          "type": "gradient",
+          "from": "#0A2F4A",
+          "to": "#0B1E3D",
+          "angle": 180
+        }
       },
       "blocks": [
         {
@@ -392,6 +417,12 @@
         "padding": {
           "d": "xl",
           "m": "lg"
+        },
+        "background": {
+          "type": "gradient",
+          "from": "#2B1F0B",
+          "to": "#4D3713",
+          "angle": 135
         }
       },
       "blocks": [
@@ -441,7 +472,13 @@
         "gap": "xl"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "type": "gradient",
+          "from": "#0B1E3D",
+          "to": "#0E4A55",
+          "angle": 180
+        }
       },
       "blocks": [
         {
@@ -568,6 +605,12 @@
         "padding": {
           "d": "xl",
           "m": "lg"
+        },
+        "background": {
+          "type": "gradient",
+          "from": "#0E4A55",
+          "to": "#072A33",
+          "angle": 180
         }
       },
       "blocks": [
@@ -874,15 +917,22 @@
         "padding": {
           "d": "md",
           "m": "md"
+        },
+        "background": {
+          "type": "gradient",
+          "from": "#072A33",
+          "to": "#072A33",
+          "angle": 180
         }
       },
       "blocks": [
         {
           "id": "blk_rqqq7gd651",
           "type": "component/sacred-divider",
-          "v": 1,
+          "v": 2,
           "fields": {
-            "line": "rooted in earth, open to light"
+            "line": "rooted in earth, open to light",
+            "emblem": "seed"
           }
         }
       ]
@@ -902,7 +952,13 @@
         "gap": "lg"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "type": "gradient",
+          "from": "#072A33",
+          "to": "#0B1E3D",
+          "angle": 180
+        }
       },
       "blocks": [
         {
@@ -1007,6 +1063,12 @@
         "padding": {
           "d": "xl",
           "m": "lg"
+        },
+        "background": {
+          "type": "gradient",
+          "from": "#F6D9E4",
+          "to": "#F1DFB8",
+          "angle": 135
         }
       },
       "blocks": [

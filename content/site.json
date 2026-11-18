@@ -58,6 +58,12 @@
       "padding": {
         "d": "xl",
         "m": "lg"
+      },
+      "background": {
+        "type": "gradient",
+        "from": "#072A33",
+        "to": "#03141A",
+        "angle": 180
       }
     },
     "blocks": [
