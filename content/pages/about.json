@@ -47,10 +47,15 @@
           "column": 0,
           "fields": {
             "image": {
-              "alt": "Portrait of Courtney smiling, resting her chin on her hand",
-              "height": 1040,
-              "src": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=1040&q=80",
-              "width": 1040
+              "src": "media/2026/11/img-5474-66186b38.jpg",
+              "alt": "",
+              "width": 2400,
+              "height": 1800,
+              "mediaId": "med_qahs6sd52n",
+              "focal": [
+                0.46,
+                0.5
+              ]
             },
             "aspect": "1:1",
             "lightbox": false
@@ -427,7 +432,7 @@
                           "content": [
                             {
                               "type": "text",
-                              "text": "NLP & Hypnotherapy Training"
+                              "text": "NLP & Hypnotherapy Training -- Sunny Jackson "
                             }
                           ]
                         }
@@ -529,16 +534,7 @@
                           "content": [
                             {
                               "type": "text",
-                              "text": "Yin Yoga Teacher Training — "
-                            },
-                            {
-                              "type": "text",
-                              "text": "with Jorge Yant",
-                              "marks": [
-                                {
-                                  "type": "italic"
-                                }
-                              ]
+                              "text": "Yin Yoga Teacher Training "
                             }
                           ]
                         }
@@ -678,39 +674,6 @@
                             {
                               "type": "text",
                               "text": "Authentic Relating, Level 1"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Education",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Mesa Community College, San Diego"
                             }
                           ]
                         }
@@ -857,26 +820,24 @@
             "images": [
               {
                 "image": {
-                  "alt": "Courtney kneeling in a sunlit tide pool in white",
-                  "height": 1260,
-                  "src": "https://images.unsplash.com/photo-1767605523281-8b54b3692078?w=840&q=80",
-                  "width": 840
+                  "src": "media/2026/11/img-1736-aaff9d0f.jpg",
+                  "alt": "",
+                  "focal": [
+                    0.453,
+                    0.281
+                  ]
                 }
               },
               {
                 "image": {
-                  "alt": "Courtney laughing in warm sunlight",
-                  "height": 1260,
-                  "src": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=840&q=80",
-                  "width": 840
+                  "src": "media/2026/11/img-0585-64b433e9.jpg",
+                  "alt": ""
                 }
               },
               {
                 "image": {
-                  "alt": "Courtney looking upward with a soft smile",
-                  "height": 1260,
-                  "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=840&q=80",
-                  "width": 840
+                  "src": "media/2026/11/img-7215-21343283.jpg",
+                  "alt": ""
                 }
               },
               {

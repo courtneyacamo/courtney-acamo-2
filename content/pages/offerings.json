@@ -140,10 +140,8 @@
           "column": 0,
           "fields": {
             "image": {
-              "alt": "A tea circle gathered around a candlelit altar",
-              "height": 1250,
-              "src": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=1000&q=80",
-              "width": 1000
+              "src": "media/2026/11/img-1705-73fd0604.jpg",
+              "alt": ""
             },
             "aspect": "4:5",
             "lightbox": false
@@ -189,7 +187,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "90 minutes · $40 per person · $300 for an in-person group at your home",
+                      "text": "90 minutes · $40 per person or $350 for an in-person group at your home (up to eight people)",
                       "marks": [
                         {
                           "type": "bold"
@@ -274,10 +272,8 @@
           "column": 1,
           "fields": {
             "image": {
-              "alt": "Courtney offering a blessing among red silk and roses",
-              "height": 1250,
-              "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&q=80",
-              "width": 1000
+              "src": "media/2026/11/1x9a0079-1f8febe2.jpg",
+              "alt": ""
             },
             "aspect": "4:5",
             "lightbox": false
@@ -411,10 +407,15 @@
           "column": 0,
           "fields": {
             "image": {
-              "alt": "Courtney with eyes closed and her hand on her heart",
-              "height": 1250,
-              "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1000&q=80",
-              "width": 1000
+              "src": "media/2026/11/1x9a0161-e3750d6f.jpg",
+              "alt": "",
+              "width": 2400,
+              "height": 1600,
+              "mediaId": "med_0f2fesgkrq",
+              "focal": [
+                0.48,
+                0.44
+              ]
             },
             "aspect": "4:5",
             "lightbox": false
@@ -802,10 +803,8 @@
           "column": 1,
           "fields": {
             "image": {
-              "alt": "Courtney playing crystal singing bowls during a sound session",
-              "height": 1250,
-              "src": "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=1000&q=80",
-              "width": 1000
+              "src": "media/2026/11/img-5616-1903fa3a.jpg",
+              "alt": ""
             },
             "aspect": "4:5",
             "lightbox": false
@@ -820,14 +819,14 @@
           "type": "heading",
           "v": 1,
           "column": 0,
+          "label": "Vocal Alchemy",
           "fields": {
             "text": "Vocal Alchemy",
             "level": "h2",
             "size": "auto",
             "eyebrow": "iv. Breath · Sound · Truth"
           },
-          "variant": "plain",
-          "label": "Vocal Alchemy"
+          "variant": "plain"
         },
         {
           "id": "blk_arapyz8gyd",
@@ -1235,47 +1234,6 @@
       },
       "blocks": [
         {
-          "id": "blk_pj3bmtnkqc",
-          "type": "text",
-          "v": 1,
-          "column": 0,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "blockquote",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "“There is an opening within ourselves that can only happen when we are met with the innocence that we are. Courtney is one of a rare few spiritual leaders that I have experienced capable of meeting her clients in such a pristine field. She has served to liberate not only my voice but also my evolution into a higher level of integrity and authentic leadership. Armed with an arsenal of modalities, her true authority comes from her capacity of holding a pure state of love that is aligned with my understanding of Christed consciousness.”"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "John Burgos",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
           "id": "blk_cqs1s1kpm2",
           "type": "text",
           "v": 1,
@@ -1330,47 +1288,6 @@
           }
         },
         {
-          "id": "blk_50771nev34",
-          "type": "text",
-          "v": 1,
-          "column": 0,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "blockquote",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "“I want to shout from the rooftops about Courtney and what a great facilitator she is. I dare say she is the best facilitator I have ever experienced. I was able to connect with her deeper than anyone else. She took me deep into myself and led me to connecting with my higher self and deepening my confidence in my power and voice. Courtney holds a very kind and loving space. My heart is full. Thank you Courtney for being a divine vessel for assisting me and letting myself be all that I can be.”"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Barbara",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
           "id": "blk_8fhcrxp1np",
           "type": "text",
           "v": 1,
@@ -1402,6 +1319,19 @@
                       "marks": [
                         {
                           "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Vocal Alchemy session",
+                      "marks": [
+                        {
+                          "type": "italic"
                         }
                       ]
                     }
