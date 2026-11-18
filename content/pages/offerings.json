@@ -26,10 +26,10 @@
           "m": "xl"
         },
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#061F28",
           "to": "#0E4A55",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -98,10 +98,10 @@
           "m": "md"
         },
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#0E4A55",
           "to": "#0E4A55",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -138,10 +138,10 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#0E4A55",
           "to": "#0A2F4A",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -224,7 +224,7 @@
             "items": [
               {
                 "icon": "check",
-                "title": "Private ceremonies for one, two or a small circle"
+                "title": "Private ceremonies for one, two or up to eight people"
               },
               {
                 "icon": "check",
@@ -278,10 +278,10 @@
       "style": {
         "colorTheme": "light-accent",
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#0A2F4A",
           "to": "#0B1E3D",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -421,10 +421,10 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#0B1E3D",
           "to": "#0E4A55",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -561,10 +561,10 @@
       "style": {
         "colorTheme": "dark-accent",
         "background": {
-          "angle": 135,
+          "type": "gradient",
           "from": "#2B1F0B",
           "to": "#4D3713",
-          "type": "gradient"
+          "angle": 135
         }
       },
       "blocks": [
@@ -700,10 +700,10 @@
           "m": "lg"
         },
         "background": {
-          "angle": 135,
+          "type": "gradient",
           "from": "#F6D9E4",
           "to": "#F1DFB8",
-          "type": "gradient"
+          "angle": 135
         }
       },
       "blocks": [

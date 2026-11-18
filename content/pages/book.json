@@ -27,10 +27,10 @@
           "m": "xl"
         },
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#061F28",
           "to": "#0E4A55",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -74,10 +74,10 @@
           "m": "md"
         },
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#0E4A55",
           "to": "#0E4A55",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -113,10 +113,10 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#0E4A55",
           "to": "#0A2F4A",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -243,10 +243,10 @@
       "style": {
         "colorTheme": "light-accent",
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#0A2F4A",
           "to": "#0B1E3D",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
