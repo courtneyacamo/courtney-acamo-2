@@ -426,7 +426,34 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "This retreat was completely heart opening, soul nourishing, frequency elevating, and LIFE CHANGING."
+                      "text": "“There is an opening within ourselves that can only happen when we are met with the innocence that we are. Courtney is one of a rare few spiritual leaders that I have experienced capable of meeting her clients in such a pristine field. She has served to liberate not only my voice but also my evolution into a higher level of integrity and authentic leadership. Armed with an arsenal of modalities, her true authority comes from her capacity of holding a pure state of love that is aligned with my understanding of Christed consciousness.”"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "John Burgos",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Vocal Alchemy session",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -837,40 +864,7 @@
                   "type": "blockquote",
                   "content": [
                     {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "“There is an opening within ourselves that can only happen when we are met with the innocence that we are. Courtney is one of a rare few spiritual leaders that I have experienced capable of meeting her clients in such a pristine field. She has served to liberate not only my voice but also my evolution into a higher level of integrity and authentic leadership. Armed with an arsenal of modalities, her true authority comes from her capacity of holding a pure state of love that is aligned with my understanding of Christed consciousness.”"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "John Burgos",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " · "
-                    },
-                    {
-                      "type": "text",
-                      "text": "Vocal Alchemy session",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
+                      "type": "paragraph"
                     }
                   ]
                 }
