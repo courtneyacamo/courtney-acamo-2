@@ -3,7 +3,7 @@
   "title": "Offerings",
   "slug": "offerings",
   "seo": {
-    "description": "Tea ceremonies, blessing ceremonies, intuitive healing and vocal empowerment with Courtney Acamo in Boulder, Colorado and online."
+    "description": "Tea ceremonies, blessing ceremonies, intuitive healing and Vocal Alchemy sessions with Courtney Acamo in Boulder, Colorado and online."
   },
   "hidden": false,
   "sections": [
@@ -769,7 +769,7 @@
     {
       "id": "sec_tvnxbbzn7z",
       "preset": "services/detail-split@1",
-      "label": "Vocal Empowerment",
+      "label": "Vocal Alchemy",
       "anchor": "voice",
       "layout": {
         "mode": "stack",
@@ -821,12 +821,13 @@
           "v": 1,
           "column": 0,
           "fields": {
-            "text": "Vocal Empowerment",
+            "text": "Vocal Alchemy",
             "level": "h2",
             "size": "auto",
             "eyebrow": "iv. Breath · Sound · Truth"
           },
-          "variant": "plain"
+          "variant": "plain",
+          "label": "Vocal Alchemy"
         },
         {
           "id": "blk_arapyz8gyd",
@@ -842,7 +843,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "My vocal sessions are designed to meet you exactly where you are and guide you into the next octave of your expression."
+                      "text": "My Vocal Alchemy sessions are designed to meet you exactly where you are and guide you into the next octave of your expression."
                     }
                   ]
                 },

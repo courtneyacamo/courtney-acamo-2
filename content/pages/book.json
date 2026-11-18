@@ -4,7 +4,7 @@
   "title": "Book a Session",
   "slug": "book",
   "seo": {
-    "description": "Book a tea ceremony, blessing, intuitive healing or vocal empowerment session with Courtney Acamo in Boulder or online."
+    "description": "Book a tea ceremony, blessing, intuitive healing or Vocal Alchemy session with Courtney Acamo in Boulder or online."
   },
   "sections": [
     {
@@ -165,7 +165,7 @@
                     "Tea ceremony",
                     "Blessing ceremony",
                     "Intuitive healing",
-                    "Vocal empowerment",
+                    "Vocal Alchemy",
                     "Not sure yet"
                   ],
                   "type": "select",
@@ -304,7 +304,7 @@
                   }
                 ],
                 "group": false,
-                "label": "Intuitive healing or vocal empowerment — online or in my Boulder space"
+                "label": "Intuitive healing or Vocal Alchemy — online or in my Boulder space"
               },
               {
                 "cells": [
@@ -313,7 +313,7 @@
                   }
                 ],
                 "group": false,
-                "label": "Intuitive healing or vocal empowerment — I come to you, in Boulder"
+                "label": "Intuitive healing or Vocal Alchemy — I come to you, in Boulder"
               },
               {
                 "cells": [
