@@ -104,7 +104,7 @@
     "color": {
       "brand": {
         "accent": {
-          "$value": "#74003b",
+          "$value": "#71093c",
           "$type": "color"
         },
         "accent-text": {
@@ -112,37 +112,37 @@
           "$type": "color"
         },
         "background": {
-          "$value": "#F7E9EE",
+          "$value": "#F6D9E4",
           "$type": "color"
         },
         "heading": {
-          "$value": "#3c001d",
+          "$value": "#001e20",
           "$type": "color"
         },
         "text": {
-          "$value": "#23161c",
+          "$value": "#2e101e",
           "$type": "color"
         }
       },
       "dark-accent": {
         "accent": {
-          "$value": "#E8A3BE",
+          "$value": "#F2B8CF",
           "$type": "color"
         },
         "accent-text": {
-          "$value": "#2A0F22",
+          "$value": "#103A63",
           "$type": "color"
         },
         "background": {
-          "$value": "#3A1630",
+          "$value": "#103A63",
           "$type": "color"
         },
         "heading": {
-          "$value": "#F0D79A",
+          "$value": "#F2DA9C",
           "$type": "color"
         },
         "text": {
-          "$value": "#F7E9EE",
+          "$value": "#EAF1FA",
           "$type": "color"
         }
       },
@@ -156,15 +156,15 @@
           "$type": "color"
         },
         "background": {
-          "$value": "#0B2B2E",
+          "$value": "#0E4A52",
           "$type": "color"
         },
         "heading": {
-          "$value": "#F0D79A",
+          "$value": "#F2DA9C",
           "$type": "color"
         },
         "text": {
-          "$value": "#D6E6E4",
+          "$value": "#E3F2F0",
           "$type": "color"
         }
       },
@@ -178,7 +178,7 @@
           "$type": "color"
         },
         "background": {
-          "$value": "#F5EEE2",
+          "$value": "#FBEAF0",
           "$type": "color"
         },
         "heading": {
@@ -186,7 +186,7 @@
           "$type": "color"
         },
         "text": {
-          "$value": "#1E3B3D",
+          "$value": "#3E2A33",
           "$type": "color"
         }
       },
@@ -200,7 +200,7 @@
           "$type": "color"
         },
         "background": {
-          "$value": "#FBF8F1",
+          "$value": "#FFFDFA",
           "$type": "color"
         },
         "heading": {

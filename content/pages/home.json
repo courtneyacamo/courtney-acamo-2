@@ -72,6 +72,37 @@
       ]
     },
     {
+      "id": "sec_g1d2t0bkkd",
+      "preset": "component/sacred-divider@1",
+      "label": "Sacred geometry divider",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_vz1rrmebja",
+          "type": "component/sacred-divider",
+          "v": 1,
+          "fields": {
+            "line": ""
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_h7yp1y28bx",
       "preset": "about/story-split@1",
       "label": "Story with portrait",
@@ -821,6 +852,37 @@
                 }
               ]
             }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_phryz9ph84",
+      "preset": "component/sacred-divider@1",
+      "label": "Sacred geometry divider",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_rqqq7gd651",
+          "type": "component/sacred-divider",
+          "v": 1,
+          "fields": {
+            "line": "rooted in earth, open to light"
           }
         }
       ]

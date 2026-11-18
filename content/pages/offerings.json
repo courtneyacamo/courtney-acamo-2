@@ -73,6 +73,37 @@
       ]
     },
     {
+      "id": "sec_7j01273kj9",
+      "preset": "component/sacred-divider@1",
+      "label": "Sacred geometry divider",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_rdk4f7as4p",
+          "type": "component/sacred-divider",
+          "v": 1,
+          "fields": {
+            "line": "each one a doorway"
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_7p5222vzev",
       "preset": "services/detail-split@1",
       "label": "Tea Ceremonies",

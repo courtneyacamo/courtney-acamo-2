@@ -49,6 +49,37 @@
       ]
     },
     {
+      "id": "sec_xt0g302fgv",
+      "preset": "component/sacred-divider@1",
+      "label": "Sacred geometry divider",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_9etsb8ha1s",
+          "type": "component/sacred-divider",
+          "v": 1,
+          "fields": {
+            "line": "your seat is waiting"
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_b2a3wg3b2q",
       "preset": "contact/form-split@1",
       "label": "Contact form with details",

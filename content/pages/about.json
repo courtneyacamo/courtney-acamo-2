@@ -200,6 +200,37 @@
       ]
     },
     {
+      "id": "sec_4cmmfrd2kn",
+      "preset": "component/sacred-divider@1",
+      "label": "Sacred geometry divider",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_f3gcpvs9fm",
+          "type": "component/sacred-divider",
+          "v": 1,
+          "fields": {
+            "line": "ceremony is my love language"
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_0w0xj2vyze",
       "preset": "about/values@1",
       "label": "Values",

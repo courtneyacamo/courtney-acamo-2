@@ -1,0 +1,32 @@
+{
+  "name": "sacred-divider",
+  "label": "Sacred geometry divider",
+  "description": "A slim band with a golden seed-of-life emblem between two lotus-tipped lines, and an optional italic line beneath.",
+  "version": 1,
+  "category": "features",
+  "fields": {
+    "line": {
+      "kind": "text",
+      "label": "Italic line (optional)",
+      "optional": true,
+      "maxLength": 80
+    }
+  },
+  "defaults": {
+    "line": "rooted in earth, open to light"
+  },
+  "template": "<div class=\"sd\">\n  <svg class=\"sd__emblem\" viewBox=\"-150 -40 300 80\" aria-hidden=\"true\">\n    <path class=\"sd__rule\" d=\"M-150 0 H-52 M52 0 H150\"></path>\n    <path class=\"sd__diamond\" d=\"M-146 0 L-140 -5 L-134 0 L-140 5 Z M146 0 L140 -5 L134 0 L140 5 Z\"></path>\n    <g class=\"sd__seed\"><circle r=\"12\"></circle><circle cx=\"12\" r=\"12\"></circle><circle cx=\"-12\" r=\"12\"></circle><circle cx=\"6\" cy=\"10.4\" r=\"12\"></circle><circle cx=\"-6\" cy=\"10.4\" r=\"12\"></circle><circle cx=\"6\" cy=\"-10.4\" r=\"12\"></circle><circle cx=\"-6\" cy=\"-10.4\" r=\"12\"></circle><circle r=\"24\"></circle><circle r=\"30\" class=\"sd__dots\"></circle></g>\n  </svg>\n  {{#if line}}<p class=\"sd__line\">{{line}}</p>{{/if}}\n</div>",
+  "css": ".sd { --sd-gold: #B98A2E; display: flex; flex-direction: column; align-items: center; gap: var(--os-space-xs); text-align: center; }\n.sd__emblem { width: min(520px, 100%); height: auto; fill: none; stroke: var(--sd-gold); stroke-width: 1; }\n.sd__diamond { fill: var(--sd-gold); stroke: none; }\n.sd__seed { stroke-width: .9; }\n.sd__dots { stroke-dasharray: .8 3; }\n.sd__line { margin: 0; font-family: var(--os-font-heading); font-style: italic; font-size: var(--os-type-h3-font-size); color: var(--os-color-heading); }",
+  "section": {
+    "width": "narrow",
+    "padding": {
+      "d": "md",
+      "m": "md"
+    }
+  },
+  "ai": {
+    "purpose": "A sacred-geometry ornament that separates sections with an Egyptian-temple elegance.",
+    "whenToUse": "Between two sections of the same theme, or at the top of a quiet section.",
+    "avoid": "More than two per page."
+  }
+}
