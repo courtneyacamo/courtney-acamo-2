@@ -451,7 +451,25 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "A one-on-one session that follows what your body and spirit are asking for. We slow down, breathe, listen and gently move what's ready to move — so your nervous system can soften and you can feel like yourself again."
+                      "text": "Your feelings are sacred — living teachers, wisdom keepers, and tellers of your stories of the past and present. In your session, we'll delve into the depths of your emotions and the power of your heart, allowing layers of protection to dissolve and initiating profound transformation at cellular, mental, physical, and energetic levels."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "As your heart opens, the inner alchemy begins. I will guide and support you to meet yourself in love. Together, we'll invite the return and integration of soul fragments, facilitating a deep connection with your unique essence and welcoming a greater sense of self-love and freedom."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "These sessions are sacred: a potent container of reclamation to delve into your heart, body, mind, and spirit, and devote your presence to your healing with loving support. I offer them over Zoom, in person in Boulder, or at your home."
                     }
                   ]
                 },
@@ -464,6 +482,20 @@
                       "marks": [
                         {
                           "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Working together to welcome your wholeness, a session may include:",
+                      "marks": [
+                        {
+                          "type": "italic"
                         }
                       ]
                     }
@@ -483,15 +515,38 @@
             "items": [
               {
                 "icon": "check",
-                "title": "Online, in my Boulder space, or at your home in Boulder"
+                "text": "Access healing, grounding, and harmonizing energies for personal empowerment.",
+                "title": "Guided Visualization"
               },
               {
                 "icon": "check",
-                "title": "Breath, sound, touch and intuitive guidance"
+                "text": "Illuminate the unseen patterns shaping your thoughts, emotions, and behaviors.",
+                "title": "Neuro-Linguistic Programming (NLP)"
               },
               {
                 "icon": "check",
-                "title": "Simple practices to take home with you"
+                "text": "Liberate emotions and patterns through sound, breath, and movement.",
+                "title": "Cathartic Release"
+              },
+              {
+                "icon": "check",
+                "text": "Learn to use your voice for liberation and open to purification through energy work.",
+                "title": "Energy & Sound Healing"
+              },
+              {
+                "icon": "check",
+                "text": "Reconcile, embrace, and connect with facets of your inner self for greater awareness and conscious action.",
+                "title": "Internal Family Systems"
+              },
+              {
+                "icon": "check",
+                "text": "An emotional processing technique for mental, emotional, physical, and cellular transformation.",
+                "title": "Bio-Emotive Therapy"
+              },
+              {
+                "icon": "check",
+                "text": "Insights, perspective, and questions that directly support your unique evolutionary journey.",
+                "title": "Intuitive Guidance"
               }
             ],
             "columns": "1"
@@ -787,7 +842,25 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "Your voice carries your frequency. Through breath, sound and playful practice, we open the throat, release old holding and let the voice you were born with come home — no singing experience needed."
+                      "text": "My vocal sessions are designed to meet you exactly where you are and guide you into the next octave of your expression."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "If you're yearning to feel more comfortable, confident, and free in your authentic expression, these sessions are for you. Together, we unravel the roots of limiting beliefs that may have kept your voice suppressed — whether it's the fear of judgment, the belief that your voice \"isn't good enough,\" or that you \"can't sing.\""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "These sessions are not about conforming to a standard, but about discovering and embracing the beauty of your unique sound and its healing powers. I weave a variety of practices to support your liberation — cathartic release, vocal play, sounding techniques, and inner child healing — and you'll walk away with a personalized toolkit that empowers your voice and authentic expression."
                     }
                   ]
                 },
@@ -800,6 +873,20 @@
                       "marks": [
                         {
                           "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "If you are ready to…",
+                      "marks": [
+                        {
+                          "type": "italic"
                         }
                       ]
                     }
@@ -819,15 +906,27 @@
             "items": [
               {
                 "icon": "check",
-                "title": "For singers, speakers and anyone who feels unheard"
+                "title": "Reclaim your innocence, power and freedom"
               },
               {
                 "icon": "check",
-                "title": "Breathwork, toning, vocal play and song"
+                "title": "Use your voice for emotional and physical healing"
               },
               {
                 "icon": "check",
-                "title": "Practices to keep your voice open between sessions"
+                "title": "Share more of your voice and gifts with humanity"
+              },
+              {
+                "icon": "check",
+                "title": "Feel confident in your authentic expression"
+              },
+              {
+                "icon": "check",
+                "title": "Let creativity be an outlet for your emotions"
+              },
+              {
+                "icon": "check",
+                "title": "Discover how sound supports your nervous system"
               }
             ],
             "columns": "1"
@@ -848,6 +947,264 @@
             "role": "primary"
           },
           "variant": "default"
+        }
+      ]
+    },
+    {
+      "id": "sec_twtv7pz97t",
+      "label": "An Ode to Your Voice",
+      "anchor": "ode",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "gap": "lg",
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light-accent",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_2rwpsjdmj2",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "An Ode to Your Voice",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "Sing to be free"
+          },
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_5pev58g486",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Your song will carry you to the shores of your heart,",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "returning the broken parts and giving them space to be heard, seen, and felt.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Your sound is an all-embracing space for your emotions to alchemize themselves free.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "It's a sanctuary for you to surrender, remember, return to your roots",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "and deepen your communion with the divine.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "It'll give your prayers wings to fly",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "and craft a temple inside your heart for god and the angels to sing.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "It provides a home to remember the truth, power, beauty, and spirit",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "infinitely available in every breath.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Sing for the strength it gives you,",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "the healing it provides,",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "the liberation it invokes,",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "and, of course, sing for the natural joy, beauty, love, and service",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "it brings to yourself and the world.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Don't sing to be good… sing to be free.",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
         }
       ]
     },

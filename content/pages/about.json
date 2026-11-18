@@ -206,6 +206,86 @@
       ]
     },
     {
+      "id": "sec_cnw4ah5whw",
+      "label": "Journey to song",
+      "anchor": "journey-to-song",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "gap": "lg",
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_1fbamzdfvh",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "My journey to song",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "Finding my voice"
+          },
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_a5ans1zb6c",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "As a child, singing was my greatest joy. Yet there was a moment when my voice was criticized, and my song turned silent for over ten years. It took a breakup and a flood of emotions to rediscover the transformative power of my own voice."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "In the depths of despair, I turned to journaling, and singing the words on the page became a visceral, cathartic experience. It awakened the knowing that I could express my emotions through sound — a pivotal moment that ignited my passion for music and self-expression."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "My journey led me to study sound healing, sacred song facilitation, medicine music, and the transformative practice of yoga of the voice. I now love helping people unlock the full potential of their voice and discover its power for healing, fulfillment, and embodiment."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_4cmmfrd2kn",
       "preset": "component/sacred-divider@1",
       "label": "Sacred geometry divider",
