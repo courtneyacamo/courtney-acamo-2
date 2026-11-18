@@ -1,0 +1,317 @@
+{
+  "$schema": "https://schema.openspace.host/v1/page.json",
+  "id": "pg_av2p7shq0g",
+  "title": "Book a Session",
+  "slug": "book",
+  "seo": {
+    "description": "Book a tea ceremony, blessing, intuitive healing or vocal empowerment session with Courtney Acamo in Boulder or online."
+  },
+  "sections": [
+    {
+      "id": "sec_62hc4pbexh",
+      "preset": "hero/centered@1",
+      "label": "Centered statement",
+      "anchor": "begin",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "2xl",
+          "m": "xl"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_gzgv44y20v",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "Let's begin with a gentle hello",
+            "level": "h1",
+            "size": "display",
+            "eyebrow": "Book a session",
+            "subheading": "Your seat is waiting. Tea, blessing, healing or voice — tell me what you're moving through."
+          },
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_b2a3wg3b2q",
+      "preset": "contact/form-split@1",
+      "label": "Contact form with details",
+      "anchor": "send-a-note",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            5,
+            7
+          ],
+          "m": [
+            12
+          ]
+        },
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_6632zhxzm8",
+          "type": "heading",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "text": "Send a note",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "Book a session",
+            "subheading": "Share a little about what you're seeking. I'll reply within 2–4 days to find a time and shape the session together."
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_0dqm65f9bx",
+          "type": "contact-info",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "headingLevel": "h3",
+            "name": "Courtney Acamo",
+            "address": "Boulder, Colorado · Online via Zoom",
+            "email": "courtneyacamo@gmail.com",
+            "directions": false
+          },
+          "variant": "list"
+        },
+        {
+          "id": "blk_ggwmn0j09s",
+          "type": "form",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "form": {
+              "fields": [
+                {
+                  "label": "Name",
+                  "name": "name",
+                  "required": true,
+                  "type": "text",
+                  "width": "half"
+                },
+                {
+                  "label": "Email",
+                  "name": "email",
+                  "required": true,
+                  "type": "email",
+                  "width": "half"
+                },
+                {
+                  "label": "I'm drawn to",
+                  "name": "offering",
+                  "options": [
+                    "Tea ceremony",
+                    "Blessing ceremony",
+                    "Intuitive healing",
+                    "Vocal empowerment",
+                    "Not sure yet"
+                  ],
+                  "type": "select",
+                  "width": "half"
+                },
+                {
+                  "label": "Where",
+                  "name": "where",
+                  "options": [
+                    "Online",
+                    "Courtney's Boulder space",
+                    "At my home in Boulder"
+                  ],
+                  "type": "select",
+                  "width": "half"
+                },
+                {
+                  "label": "Preferred date",
+                  "name": "date",
+                  "type": "date",
+                  "width": "half"
+                },
+                {
+                  "label": "What are you moving through?",
+                  "maxLength": 2000,
+                  "name": "message",
+                  "required": true,
+                  "type": "textarea"
+                }
+              ],
+              "id": "frm_9q5m88re8g",
+              "name": "Booking request",
+              "notifyOwner": true,
+              "submitLabel": "Send with love",
+              "success": {
+                "message": "Thank you — your note is on its way. I'll reply within 2–4 days.",
+                "type": "message"
+              }
+            }
+          },
+          "variant": "card"
+        }
+      ]
+    },
+    {
+      "id": "sec_qjahxzw05f",
+      "preset": "pricing/rate-card@1",
+      "label": "Rate card",
+      "anchor": "prices",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            5,
+            7
+          ],
+          "m": [
+            12
+          ]
+        },
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "light-accent"
+      },
+      "blocks": [
+        {
+          "id": "blk_7mnn2wy7ae",
+          "type": "heading",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "text": "Sessions & prices",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "90 minutes each"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_7kwafw8a73",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Sessions take place online via Zoom, in my Boulder space, or at your home in Boulder. Not sure which offering is right for you? Send a note and we'll find it together."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_d6r767yq6q",
+          "type": "button",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "label": "Send a note",
+            "link": {
+              "anchor": "send-a-note",
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "role": "primary"
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_770b0b9kpf",
+          "type": "table",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "columns": [
+              {
+                "highlight": false,
+                "label": "Price"
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "value": "$150"
+                  }
+                ],
+                "group": false,
+                "label": "Intuitive healing or vocal empowerment — online or in my Boulder space"
+              },
+              {
+                "cells": [
+                  {
+                    "value": "$175"
+                  }
+                ],
+                "group": false,
+                "label": "Intuitive healing or vocal empowerment — I come to you, in Boulder"
+              },
+              {
+                "cells": [
+                  {
+                    "value": "$40"
+                  }
+                ],
+                "group": false,
+                "label": "Tea ceremony — per person"
+              },
+              {
+                "cells": [
+                  {
+                    "value": "$300"
+                  }
+                ],
+                "group": false,
+                "label": "Tea ceremony — in-person group at your home"
+              },
+              {
+                "cells": [
+                  {
+                    "value": "Just ask"
+                  }
+                ],
+                "group": false,
+                "label": "Blessing ceremony"
+              }
+            ],
+            "corner": "Session",
+            "note": "All sessions are 90 minutes. Blessing ceremonies are shaped to your gathering.",
+            "caption": "Session prices"
+          },
+          "variant": "striped"
+        }
+      ]
+    }
+  ]
+}

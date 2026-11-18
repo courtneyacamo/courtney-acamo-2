@@ -8,15 +8,80 @@
   },
   "sections": [
     {
-      "id": "sec_h9tnehxdvb",
-      "preset": "hero/arch-window@1",
-      "label": "Arched image",
+      "id": "sec_hcy87nph5x",
+      "preset": "component/temple-hero@1",
+      "label": "Temple hero with arched portal",
+      "anchor": "welcome",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
-            7,
-            5
+            12
+          ]
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_h23t72k53j",
+          "type": "component/temple-hero",
+          "v": 1,
+          "fields": {
+            "cta": {
+              "page": "pg_rd3xj4d0fg",
+              "type": "page"
+            },
+            "ctaLabel": "Enter the offerings",
+            "eyebrow": "Ceremony · Healing · Voice",
+            "headline": "Remember the wellspring within",
+            "intro": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ceremony, sound and intuitive healing to help your body settle, your spirit brighten and your voice rise. In Boulder, Colorado and online."
+                    }
+                  ]
+                }
+              ]
+            },
+            "more": {
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "moreLabel": "Book a session",
+            "photo": {
+              "alt": "Arms raised in prayer at sunset",
+              "height": 1256,
+              "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1080&q=80",
+              "width": 1080
+            },
+            "tagline": "come home to your soul essence"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_h7yp1y28bx",
+      "preset": "about/story-split@1",
+      "label": "Story with portrait",
+      "anchor": "hello",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            5,
+            7
           ],
           "m": [
             12
@@ -26,59 +91,20 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light-accent",
-        "padding": {
-          "d": "xl",
-          "m": "lg"
-        }
+        "colorTheme": "light"
       },
       "blocks": [
         {
-          "id": "blk_vct7gw95n1",
-          "type": "heading",
-          "v": 1,
-          "column": 0,
-          "fields": {
-            "text": "Ceremony, healing and voice in Boulder, Colorado and online",
-            "level": "h1",
-            "size": "h1",
-            "eyebrow": "Yoga & bodywork · SE Portland",
-            "subheading": "Small, patient classes for every kind of body, and massage therapists who listen first. Twelve mats a class, tea afterwards, and nobody in a hurry."
-          },
-          "variant": "plain"
-        },
-        {
-          "id": "blk_e5hr89w7pd",
-          "type": "button",
-          "v": 1,
-          "column": 0,
-          "fields": {
-            "label": "See the class schedule",
-            "link": {
-              "type": "page",
-              "page": "pg_f7jcnz65me"
-            },
-            "role": "primary",
-            "secondaryLabel": "Book a massage",
-            "secondaryLink": {
-              "type": "page",
-              "page": "pg_xmmxstbmvf"
-            },
-            "note": "New here? Your first week is $25."
-          },
-          "variant": "default"
-        },
-        {
-          "id": "blk_40we6p1z3t",
+          "id": "blk_ws80mag792",
           "type": "image",
           "v": 1,
-          "column": 1,
+          "column": 0,
           "fields": {
             "image": {
-              "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1080&q=80",
-              "alt": "A woman meditating cross-legged on a wooden deck in the early light",
-              "width": 1080,
-              "height": 1256
+              "alt": "Courtney smiling by the ocean with her hand on her heart",
+              "height": 1300,
+              "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1040&q=80",
+              "width": 1040
             },
             "aspect": "4:5",
             "lightbox": false
@@ -87,13 +113,74 @@
           "style": {
             "imageTreatment": "arch"
           }
+        },
+        {
+          "id": "blk_8gc3q9jsvw",
+          "type": "heading",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "text": "Hi, I'm Courtney",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "Welcome, dear one"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_j85r3q0gfp",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I hold space for the moments when you need to slow down and come back to yourself — through the ritual of tea, prayers for life's thresholds, intuitive healing and the medicine of your own voice."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Every gathering is shaped around what you're carrying and what you're calling in."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_4pfc1knbjt",
+          "type": "button",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "label": "More about me",
+            "link": {
+              "page": "pg_sat2c09jw4",
+              "type": "page"
+            },
+            "role": "secondary"
+          },
+          "variant": "default"
         }
       ]
     },
     {
-      "id": "sec_410jh9fyhr",
-      "preset": "about/values@1",
-      "label": "Values",
+      "id": "sec_3z25j54kjq",
+      "preset": "services/image-cards@1",
+      "label": "Three services with photos",
+      "anchor": "offerings",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -104,19 +191,19 @@
         "gap": "xl"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light-accent"
       },
       "blocks": [
         {
-          "id": "blk_7psjscjt6v",
+          "id": "blk_3wwq41e4e2",
           "type": "heading",
           "v": 1,
           "fields": {
-            "text": "Come exactly as you are",
+            "text": "Ways we can gather",
             "level": "h2",
             "size": "auto",
-            "eyebrow": "The Fernwood way",
-            "subheading": "No mirrors, no performance, no perfect poses. Just a warm room and teachers who meet you where you are today."
+            "eyebrow": "Offerings",
+            "subheading": "Four doorways back to yourself — in Boulder, at your home or online."
           },
           "variant": "plain",
           "style": {
@@ -126,272 +213,140 @@
           }
         },
         {
-          "id": "blk_mv4z5w22bh",
-          "type": "icon-list",
+          "id": "blk_s6ngvdjvyb",
+          "type": "columns",
           "v": 1,
           "fields": {
             "items": [
               {
-                "icon": "users",
-                "title": "Twelve mats, never more",
-                "text": "Small enough that your teacher learns your name, your knees and what helps on a hard day."
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Leaf, water and quiet. A slow ritual to arrive, settle and listen inward."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Tea Ceremonies",
+                "image": {
+                  "alt": "Hands holding a ceramic tea bowl beside yellow yarrow flowers",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=1000&q=80",
+                  "width": 1000
+                },
+                "link": {
+                  "anchor": "tea",
+                  "page": "pg_rd3xj4d0fg",
+                  "type": "page"
+                },
+                "linkLabel": "Learn more"
               },
               {
-                "icon": "clock",
-                "title": "Time to arrive",
-                "text": "Doors open fifteen minutes early so you can settle, stretch and leave the day outside."
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Prayer and ritual for baby showers, birthdays and fresh starts — or a simple energetic reset."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Blessing Ceremonies",
+                "image": {
+                  "alt": "Courtney offering a blessing among red silk and roses",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&q=80",
+                  "width": 1000
+                },
+                "link": {
+                  "anchor": "blessing",
+                  "page": "pg_rd3xj4d0fg",
+                  "type": "page"
+                },
+                "linkLabel": "Learn more"
               },
               {
-                "icon": "leaf",
-                "title": "Tea after every class",
-                "text": "A pot of something warm on the bench by the window, and people worth talking to."
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "One-on-one sessions to calm your system, let go of what's heavy and hear your own knowing again."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Intuitive Healing",
+                "image": {
+                  "alt": "Courtney with her hands together in prayer",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1000&q=80",
+                  "width": 1000
+                },
+                "link": {
+                  "anchor": "healing",
+                  "page": "pg_rd3xj4d0fg",
+                  "type": "page"
+                },
+                "linkLabel": "Learn more"
+              },
+              {
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Breath, sound and play to free your voice — in song, in speech, in life."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Vocal Empowerment",
+                "image": {
+                  "alt": "Courtney playing crystal singing bowls during a sound session",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=1000&q=80",
+                  "width": 1000
+                },
+                "link": {
+                  "anchor": "voice",
+                  "page": "pg_rd3xj4d0fg",
+                  "type": "page"
+                },
+                "linkLabel": "Learn more"
               }
             ],
-            "columns": "3"
+            "columns": "4",
+            "aspect": "4:5"
           },
-          "variant": "tiles"
+          "variant": "plain"
         }
       ]
     },
     {
-      "id": "sec_fa4k8m8p03",
-      "preset": "services/alternating@1",
-      "label": "Alternating image and text",
-      "layout": {
-        "mode": "grid",
-        "rows": {
-          "d": 33,
-          "m": 43
-        },
-        "items": {
-          "blk_cb635hcq7q": {
-            "d": {
-              "x": 1,
-              "y": 1,
-              "w": 12,
-              "h": 16
-            },
-            "m": {
-              "x": 1,
-              "y": 1,
-              "w": 8,
-              "h": 11
-            }
-          },
-          "blk_bjf6j96tvq": {
-            "d": {
-              "x": 15,
-              "y": 4,
-              "w": 9,
-              "h": 10
-            },
-            "m": {
-              "x": 1,
-              "y": 12,
-              "w": 8,
-              "h": 10
-            }
-          },
-          "blk_k8k73t543t": {
-            "d": {
-              "x": 13,
-              "y": 18,
-              "w": 12,
-              "h": 16
-            },
-            "m": {
-              "x": 1,
-              "y": 23,
-              "w": 8,
-              "h": 11
-            }
-          },
-          "blk_rh0p0k8tdv": {
-            "d": {
-              "x": 2,
-              "y": 21,
-              "w": 9,
-              "h": 10
-            },
-            "m": {
-              "x": 1,
-              "y": 34,
-              "w": 8,
-              "h": 10
-            }
-          }
-        }
-      },
-      "style": {
-        "colorTheme": "light-accent"
-      },
-      "blocks": [
-        {
-          "id": "blk_cb635hcq7q",
-          "type": "image",
-          "v": 1,
-          "fields": {
-            "image": {
-              "src": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1280&q=80",
-              "alt": "A small group holding tree pose together on a misty morning",
-              "width": 1280,
-              "height": 853
-            },
-            "aspect": "original",
-            "lightbox": false
-          },
-          "variant": "default"
-        },
-        {
-          "id": "blk_bjf6j96tvq",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "eyebrow"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Group classes"
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2,
-                    "preset": "h2"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Thirty classes a week"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "From a gentle 6:30am flow to Friday-night restorative with bolsters and blankets. Every class offers options, so beginners and long-time students share the same room happily."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "See this week's schedule →",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "/classes/"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "variant": "default"
-        },
-        {
-          "id": "blk_k8k73t543t",
-          "type": "image",
-          "v": 1,
-          "fields": {
-            "image": {
-              "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1280&q=80",
-              "alt": "A therapist warming oil in her hands before a back massage",
-              "width": 1280,
-              "height": 853
-            },
-            "aspect": "original",
-            "lightbox": false
-          },
-          "variant": "default"
-        },
-        {
-          "id": "blk_rh0p0k8tdv",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "eyebrow"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Bodywork"
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2,
-                    "preset": "h2"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Massage that listens"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Therapeutic, deep tissue and pregnancy massage with licensed therapists in two quiet rooms upstairs. Sixty or ninety minutes, with evening appointments four nights a week."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Treatments and prices →",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "/bodywork/"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          "variant": "default"
-        }
-      ]
-    },
-    {
-      "id": "sec_pc46zd5vz0",
+      "id": "sec_22c2mrk9pa",
       "preset": "testimonials/large-single@1",
       "label": "One big testimonial",
+      "anchor": "invitation",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -410,7 +365,7 @@
       },
       "blocks": [
         {
-          "id": "blk_7tkvwpv9hf",
+          "id": "blk_4hh45r6m4y",
           "type": "testimonial",
           "v": 1,
           "fields": {
@@ -422,20 +377,14 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "I walked in with a stiff back and a lot of nerves. A year later I practise three mornings a week, and the people on the mats beside me have become friends."
+                      "text": "This retreat was completely heart opening, soul nourishing, frequency elevating, and LIFE CHANGING."
                     }
                   ]
                 }
               ]
             },
-            "name": "Rosalind Achebe",
-            "role": "Student since 2025",
-            "photo": {
-              "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=320&q=80",
-              "alt": "Portrait of Rosalind, a Fernwood student",
-              "width": 320,
-              "height": 479
-            }
+            "name": "Alayna Sigerason",
+            "role": "Bloom Retreat, Kauai"
           },
           "variant": "large",
           "style": {
@@ -447,50 +396,540 @@
       ]
     },
     {
-      "id": "sec_p13sa37w5e",
-      "preset": "events/cards@1",
-      "label": "Event cards",
+      "id": "sec_jfq7vh21w3",
+      "preset": "process/numbered-steps@1",
+      "label": "Numbered steps",
+      "anchor": "journey",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
-        }
+        },
+        "gap": "xl"
       },
       "style": {
         "colorTheme": "light"
       },
       "blocks": [
         {
-          "id": "blk_h18g7jk3by",
-          "type": "events",
+          "id": "blk_zdzek612y2",
+          "type": "heading",
           "v": 1,
           "fields": {
-            "heading": "Workshops & retreats",
-            "headingLevel": "h2",
-            "source": {
-              "collection": "workshops",
-              "filter": {
-                "upcoming": true
-              },
-              "limit": 3
-            },
-            "showImage": true,
-            "showLocation": true,
-            "showExcerpt": true,
-            "registerLabel": "Save a place",
-            "emptyMessage": "New workshops are posted at the start of each season — check back soon.",
-            "structuredData": true
+            "text": "How we'll walk together",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "The journey",
+            "subheading": "Every session is shaped around you — here's how we begin."
           },
-          "variant": "cards"
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_hxe7bs48zy",
+          "type": "columns",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Reach out and share what you're longing for. We'll find the offering that meets you where you are."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Connect"
+              },
+              {
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "We gather in a held, intentional space — with tea, prayer, touch or sound — and let the work unfold."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Ceremony"
+              },
+              {
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "You leave with gentle practices to carry the new frequency into your everyday life."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Integrate"
+              }
+            ],
+            "columns": "3",
+            "aspect": "3:2"
+          },
+          "variant": "steps"
+        },
+        {
+          "id": "blk_gw36qxjesp",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Book a session",
+            "link": {
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "role": "primary"
+          },
+          "variant": "default",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
         }
       ]
     },
     {
-      "id": "sec_yz86mmmw5k",
+      "id": "sec_am0rt6s5m2",
+      "label": "Client love",
+      "anchor": "client-love",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            6,
+            6
+          ],
+          "m": [
+            12
+          ]
+        },
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_115734fw31",
+          "type": "heading",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "text": "Client love",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "Kind words"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_2hs20qw5wc",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“A friend of mine described Courtney as an earth angel, and after doing an immersion with her, I feel this is so TRUE. She is a soul steward, a priestess sister, and a divine mirror to reflect your light back to you and offer the practical tools for diving in deeper and shining even brighter. If you are looking to up-level your business, spiritual practice, sensuality, your at-homeness in your body, or feel more empowered on the next steps of your path, Courtneys is your girl.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Dani Frederick",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Songstress, Divine Feminine Mystic",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_69m14j32vz",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“I had a week-long immersion with Courtney and experienced one of the most beautiful weeks of my life. The flow, grace, power, magic, and healing was beyond any expectation. It was pure spirit working through. The way Courtney weaves her intuition with inner child healing, movement, song, ceremony, trauma healing, adventure, and play is mind-blowing. I feel the integration and return of lost pieces of my soul. There was so much clearing of past guilt, shame, and patterns of shutting down. This was the safest container to open, surrender, trust, and unravel. I feel whole, like I've stepped into a new self.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mariana Grace",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Hypnotherapist, Ceremonial Guide",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_07vyx5wsg7",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“This Retreat felt like a true initiation into living in my highest devotion to self and my purpose. There were many moments when I could feel myself pressing up against my comfort zone, but I never felt an “I can’t do this” sensation in my body. I know it was because Courtney and all the women created such a safe space for us all to be messy, imperfect, and beautiful.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ava Johanna",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Bloom Retreat, Kauai",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_zcvnsa8std",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“Courtney is clear conduit for the divine, a role model for what can be done with voice and play. The session I had with her was more powerful than any DMT journeys I'v ever been on. She met me right where I was and used the energy to move through ancient wounds and trauma. I felt completely safe to move through whatever I needed too even if it was really ugly, there was no judgment. The amount of work we did in this short time was astounding. My entire being was flooded with light and transmutation. I feel empty, whole, healed.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bonnie",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Vocal Alchemy session",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_vh8xag5x4t",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“My soul needed this. I felt enveloped with a deep sense of joy and belonging that I have never experienced so strongly before. I knew this experience was a gift from Spirit. I really loved the incredible energy of nature surrounding this beautiful home and is all over this sacred island. The love shared by Courtney was an inspiring gift from the first moment of connection.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Rebecca Lash",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Bloom Retreat, Kauai",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_s4dsa0zcqk",
+      "preset": "gallery/grid@1",
+      "label": "Photo grid",
+      "anchor": "moments",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "gap": "lg"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_zhv4754xg6",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "Moments from the circle",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "Gallery",
+            "subheading": "Tea, song, prayer and sisterhood — a glimpse of the ceremonies."
+          },
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_3ha2xhw5xp",
+          "type": "gallery",
+          "v": 1,
+          "fields": {
+            "images": [
+              {
+                "image": {
+                  "alt": "A tea circle gathered around a candlelit altar",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1000&q=80",
+                  "width": 1000
+                }
+              },
+              {
+                "image": {
+                  "alt": "A circle of women in white on the beach in Kauai",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1000&q=80",
+                  "width": 1000
+                }
+              },
+              {
+                "image": {
+                  "alt": "Two women in a long embrace after ceremony",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=1000&q=80",
+                  "width": 1000
+                }
+              },
+              {
+                "image": {
+                  "alt": "A candlelit ceremony room with sheepskins and cushions",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?w=1000&q=80",
+                  "width": 1000
+                }
+              },
+              {
+                "image": {
+                  "alt": "Hands holding rose petals and flowers for a blessing",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&q=80",
+                  "width": 1000
+                }
+              },
+              {
+                "image": {
+                  "alt": "Courtney seen from behind in golden sunset light",
+                  "height": 1250,
+                  "src": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=1000&q=80",
+                  "width": 1000
+                }
+              }
+            ],
+            "aspect": "4:5",
+            "columns": "3",
+            "lightbox": true,
+            "showCaptions": false
+          },
+          "variant": "grid"
+        }
+      ]
+    },
+    {
+      "id": "sec_q24j51njw3",
       "preset": "cta/banner@1",
       "label": "Centred banner",
+      "anchor": "begin",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -510,14 +949,14 @@
       },
       "blocks": [
         {
-          "id": "blk_2pwm6s19me",
+          "id": "blk_7c9zack8s5",
           "type": "heading",
           "v": 1,
           "fields": {
-            "text": "New to Fernwood? Start with a week",
+            "text": "Your seat is waiting",
             "level": "h2",
             "size": "auto",
-            "subheading": "Seven days of unlimited classes for $25, so you can find the teachers and times that feel right."
+            "subheading": "Tell me a little about what you're moving through, and we'll find the right way to begin."
           },
           "variant": "plain",
           "style": {
@@ -527,20 +966,20 @@
           }
         },
         {
-          "id": "blk_9fm50v7anj",
+          "id": "blk_w3zjrr1k94",
           "type": "button",
           "v": 1,
           "fields": {
-            "label": "Claim your intro week",
+            "label": "Book a session",
             "link": {
-              "type": "url",
-              "url": "https://cal.com/fernwood-yoga"
+              "page": "pg_av2p7shq0g",
+              "type": "page"
             },
             "role": "primary",
-            "secondaryLabel": "Gift a class card",
+            "secondaryLabel": "Explore the offerings",
             "secondaryLink": {
-              "type": "page",
-              "page": "pg_av2p7shq0g"
+              "page": "pg_rd3xj4d0fg",
+              "type": "page"
             }
           },
           "variant": "large",

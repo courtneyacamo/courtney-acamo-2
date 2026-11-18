@@ -4,14 +4,14 @@
   "title": "About",
   "slug": "about",
   "seo": {
-    "description": "Courtney Acamo opened on SE Division Street in 2016. Meet founder Hana Moreau, our teachers and the story of the studio.",
-    "image": "https://images.unsplash.com/photo-1767605523281-8b54b3692078?w=1200&q=80"
+    "description": "Courtney Acamo is an intuitive healer, embodiment guide, ceremonialist and sound priestess in Boulder, Colorado."
   },
   "sections": [
     {
       "id": "sec_ezaeh3m133",
       "preset": "about/story-split@1",
       "label": "Story with portrait",
+      "anchor": "hello",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -27,7 +27,11 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "dark",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
       },
       "blocks": [
         {
@@ -37,17 +41,17 @@
           "column": 0,
           "fields": {
             "image": {
-              "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1040&q=80",
-              "alt": "Portrait of Hana Moreau, founder of Fernwood",
-              "width": 1040,
-              "height": 1560
+              "alt": "Portrait of Courtney smiling, resting her chin on her hand",
+              "height": 1040,
+              "src": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=1040&q=80",
+              "width": 1040
             },
-            "aspect": "4:5",
+            "aspect": "1:1",
             "lightbox": false
           },
           "variant": "default",
           "style": {
-            "imageTreatment": "arch"
+            "imageTreatment": "circle"
           }
         },
         {
@@ -56,10 +60,11 @@
           "v": 1,
           "column": 1,
           "fields": {
-            "text": "A studio built around slowing down",
+            "text": "Hello, I'm Courtney",
             "level": "h1",
             "size": "h1",
-            "eyebrow": "Our story"
+            "eyebrow": "About",
+            "subheading": "ceremony is my love language"
           },
           "variant": "plain"
         },
@@ -77,7 +82,7 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "Hana Moreau taught her first class in 2012, in a borrowed church hall with eight mats and a space heater. She had spent ten years as a nurse and had seen how rarely people are given time to notice their own bodies."
+                      "text": "I'm an intuitive healer, embodiment guide, ceremonialist and sound priestess living in Boulder, Colorado, fueled with a passion for the healing arts and women's empowerment."
                     }
                   ]
                 },
@@ -86,7 +91,21 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "Fernwood opened in 2016 with one room, one teacher and a kettle. Today there are six teachers, two massage therapists and thirty classes a week, but the rules are the same: small classes, patient teaching, and tea afterwards for anyone who wants to stay."
+                      "text": "I've spent the last decade traveling the globe, learning transformational tools and studying healing modalities in diverse teachings and ancient wisdom traditions. Through ceremonies, retreats, mentorships and healing sessions, I create spaces where people can finally exhale — where the body feels safe, the heart opens and the voice remembers its song."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I'm here as an ally in your liberation, leadership, and the embodiment of all that you are.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -101,13 +120,12 @@
           "v": 1,
           "column": 1,
           "fields": {
-            "label": "Meet the teachers",
+            "label": "Book a session",
             "link": {
-              "type": "page",
-              "page": "pg_sat2c09jw4",
-              "anchor": "teachers"
+              "page": "pg_av2p7shq0g",
+              "type": "page"
             },
-            "role": "secondary"
+            "role": "primary"
           },
           "variant": "default"
         }
@@ -140,11 +158,11 @@
           "v": 1,
           "column": 0,
           "fields": {
-            "text": "How Fernwood grew",
+            "text": "Turning pain into power",
             "level": "h2",
             "size": "auto",
-            "eyebrow": "Ten years on Division Street",
-            "subheading": "One room became two, and a weekly class became a small community."
+            "eyebrow": "My path",
+            "subheading": "My path into the healing arts began at a very young age, developing my psychic abilities, compassion and sensitivities through intense hardship."
           },
           "variant": "plain"
         },
@@ -156,24 +174,24 @@
           "fields": {
             "items": [
               {
-                "date": "2016",
-                "title": "The first room",
-                "text": "Hana signs the lease on a former florist's shop and teaches every class herself."
+                "date": "Early years",
+                "text": "Hardship shaped my psychic abilities, compassion and sensitivities from a young age.",
+                "title": "A sensitive beginning"
               },
               {
-                "date": "2018",
-                "title": "Teachers join",
-                "text": "Theo and Iris arrive, and the schedule grows from eight classes to twenty."
+                "date": "Late teens",
+                "text": "Accidents, surgeries and severe spinal pain launched me onto the path of seeking what would truly heal.",
+                "title": "The catalyst"
               },
               {
-                "date": "2021",
-                "title": "Bodywork upstairs",
-                "text": "Two treatment rooms open above the studio for massage and yoga therapy."
+                "date": "A decade of study",
+                "text": "Yoga of the voice, ancestral healing, NLP, Internal Family Systems, energy healing, chi gong, Tao tantra, improv, meditation, plant medicine, yin yoga, sound healing and women's circle facilitation.",
+                "title": "Traveling the world"
               },
               {
                 "date": "Today",
-                "title": "Thirty classes a week",
-                "text": "Still twelve mats per class, still tea afterwards, still on Division Street."
+                "text": "A private healing practice helping others turn their pain into power, access their creative potential and live a life they love.",
+                "title": "Boulder, Colorado"
               }
             ]
           },
@@ -182,10 +200,10 @@
       ]
     },
     {
-      "id": "sec_4x3npfmy3x",
-      "preset": "team/circles@1",
-      "label": "Team in circles",
-      "anchor": "teachers",
+      "id": "sec_0w0xj2vyze",
+      "preset": "about/values@1",
+      "label": "Values",
+      "anchor": "sacred",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -200,14 +218,15 @@
       },
       "blocks": [
         {
-          "id": "blk_njrmjg8wjy",
+          "id": "blk_aarzdgw2af",
           "type": "heading",
           "v": 1,
           "fields": {
-            "text": "Your teachers",
+            "text": "What I hold sacred",
             "level": "h2",
             "size": "auto",
-            "eyebrow": "Meet us"
+            "eyebrow": "Earth · Spirit · Voice",
+            "subheading": "The three threads woven through every ceremony."
           },
           "variant": "plain",
           "style": {
@@ -217,45 +236,30 @@
           }
         },
         {
-          "id": "blk_tz63hmtpjx",
-          "type": "team",
+          "id": "blk_pnegtmrh0m",
+          "type": "icon-list",
           "v": 1,
           "fields": {
-            "people": [
+            "items": [
               {
-                "name": "Hana Moreau",
-                "role": "Founder · Slow flow",
-                "photo": {
-                  "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=560&q=80",
-                  "alt": "Portrait of Hana Moreau",
-                  "width": 560,
-                  "height": 840
-                }
+                "icon": "leaf",
+                "text": "Grounding the body, honoring the seasons and letting nature teach us to slow down.",
+                "title": "Earth"
               },
               {
-                "name": "Theo Nakamura",
-                "role": "Foundations & strength",
-                "photo": {
-                  "src": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=560&q=80",
-                  "alt": "Portrait of Theo Nakamura",
-                  "width": 560,
-                  "height": 840
-                }
+                "icon": "sparkles",
+                "text": "Prayer, intuition and the unseen — the light that moves through every ceremony.",
+                "title": "Spirit"
               },
               {
-                "name": "Iris Okonjo",
-                "role": "Prenatal & yin",
-                "photo": {
-                  "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=560&q=80",
-                  "alt": "Portrait of Iris Okonjo",
-                  "width": 560,
-                  "height": 700
-                }
+                "icon": "music",
+                "text": "Sound as medicine. Every person deserves to be heard — first of all by themselves.",
+                "title": "Voice"
               }
             ],
             "columns": "3"
           },
-          "variant": "circles"
+          "variant": "tiles"
         }
       ]
     },
@@ -281,10 +285,10 @@
           "type": "heading",
           "v": 1,
           "fields": {
-            "text": "A look around",
+            "text": "Glimpses",
             "level": "h2",
             "size": "auto",
-            "eyebrow": "The studio"
+            "eyebrow": "Rooted in earth, open to light"
           },
           "variant": "plain"
         },
@@ -296,45 +300,41 @@
             "images": [
               {
                 "image": {
+                  "alt": "Courtney kneeling in a sunlit tide pool in white",
+                  "height": 1260,
                   "src": "https://images.unsplash.com/photo-1767605523281-8b54b3692078?w=840&q=80",
-                  "alt": "Rolled mats in a woven basket by a plant",
-                  "width": 840,
-                  "height": 1260
-                },
-                "caption": "Mats and props for everyone"
+                  "width": 840
+                }
               },
               {
                 "image": {
+                  "alt": "Courtney laughing in warm sunlight",
+                  "height": 1260,
                   "src": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=840&q=80",
-                  "alt": "Two warm drinks on a small table with herbs",
-                  "width": 840,
-                  "height": 1260
-                },
-                "caption": "Tea on the window bench"
+                  "width": 840
+                }
               },
               {
                 "image": {
-                  "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1560&q=80",
-                  "alt": "A treatment room prepared for a massage",
-                  "width": 1560,
-                  "height": 1040
-                },
-                "caption": "The upstairs treatment room"
+                  "alt": "Courtney looking upward with a soft smile",
+                  "height": 1260,
+                  "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=840&q=80",
+                  "width": 840
+                }
               },
               {
                 "image": {
-                  "src": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1560&q=80",
-                  "alt": "A small group practising tree pose on the beach",
-                  "width": 1560,
-                  "height": 1040
-                },
-                "caption": "Summer retreat at Manzanita"
+                  "alt": "Courtney smiling in a soft grey wrap",
+                  "height": 1260,
+                  "src": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=840&q=80",
+                  "width": 840
+                }
               }
             ],
             "aspect": "4:5",
             "columns": "3",
             "lightbox": true,
-            "showCaptions": true
+            "showCaptions": false
           },
           "variant": "carousel"
         }

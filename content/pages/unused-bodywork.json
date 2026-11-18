@@ -2,10 +2,11 @@
   "$schema": "https://schema.openspace.host/v1/page.json",
   "id": "pg_xmmxstbmvf",
   "title": "Bodywork",
-  "slug": "bodywork",
+  "slug": "unused-bodywork",
   "seo": {
     "description": "Therapeutic, deep tissue, pregnancy and lymphatic massage with licensed therapists at Fernwood in SE Portland. Evening appointments available."
   },
+  "hidden": true,
   "sections": [
     {
       "id": "sec_z88vrtdeg3",

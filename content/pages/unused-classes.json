@@ -1,11 +1,12 @@
 {
   "$schema": "https://schema.openspace.host/v1/page.json",
   "id": "pg_f7jcnz65me",
-  "title": "Classes",
-  "slug": "classes",
+  "title": "Classes (template, unused)",
+  "slug": "unused-classes",
   "seo": {
-    "description": "The weekly class schedule at Fernwood: slow flow, foundations, yin, prenatal and restorative yoga, plus memberships and class cards."
+    "description": "Tea ceremonies, blessing ceremonies, intuitive healing and vocal empowerment with Courtney Acamo in Boulder, Colorado and online."
   },
+  "hidden": true,
   "sections": [
     {
       "id": "sec_f1fz664hep",

@@ -1,0 +1,675 @@
+{
+  "id": "pg_rd3xj4d0fg",
+  "title": "Offerings",
+  "slug": "offerings",
+  "seo": {
+    "description": "Tea ceremonies, blessing ceremonies, intuitive healing and vocal empowerment with Courtney Acamo in Boulder, Colorado and online."
+  },
+  "hidden": false,
+  "sections": [
+    {
+      "id": "sec_exdd5dag9j",
+      "preset": "hero/centered@1",
+      "label": "Centered statement",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "2xl",
+          "m": "xl"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_wa2wq6167p",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "Ceremonies for the body, the spirit & the voice",
+            "level": "h1",
+            "size": "display",
+            "eyebrow": "Offerings",
+            "subheading": "Each one a doorway. 90-minute sessions — online, in Boulder or at your home."
+          },
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_98g4562rj5",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Book a session",
+            "link": {
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "role": "primary",
+            "secondaryLabel": "See prices",
+            "secondaryLink": {
+              "anchor": "prices",
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            }
+          },
+          "variant": "default",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_7p5222vzev",
+      "preset": "services/detail-split@1",
+      "label": "Tea Ceremonies",
+      "anchor": "tea",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            5,
+            7
+          ],
+          "m": [
+            12
+          ]
+        },
+        "align": "center",
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_cpk2bm6p0z",
+          "type": "image",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "image": {
+              "alt": "A tea circle gathered around a candlelit altar",
+              "height": 1250,
+              "src": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=1000&q=80",
+              "width": 1000
+            },
+            "aspect": "4:5",
+            "lightbox": false
+          },
+          "variant": "default",
+          "style": {
+            "imageTreatment": "arch"
+          }
+        },
+        {
+          "id": "blk_gdv2wwvz9d",
+          "type": "heading",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "text": "Tea Ceremonies",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "i. Leaf · Water · Fire"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_bxggebnmwf",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "We sit together and let the tea lead. Bowl by bowl, the noise quiets and the body remembers how to rest — a simple, beautiful way to come back to presence, on your own or in a circle."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "90 minutes · $40 per person · $300 for an in-person group at your home",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_z2dz5vbme7",
+          "type": "icon-list",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "items": [
+              {
+                "icon": "check",
+                "title": "Private ceremonies for one, two or a small circle"
+              },
+              {
+                "icon": "check",
+                "title": "Gatherings for friends, celebrations and community"
+              },
+              {
+                "icon": "check",
+                "title": "In Boulder — my space, your home or outdoors"
+              }
+            ],
+            "columns": "1"
+          },
+          "variant": "checklist"
+        },
+        {
+          "id": "blk_v1tdwt8rq8",
+          "type": "button",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "label": "Book a tea ceremony",
+            "link": {
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "role": "primary"
+          },
+          "variant": "default"
+        }
+      ]
+    },
+    {
+      "id": "sec_mgqve3r0zk",
+      "preset": "services/detail-split@1",
+      "label": "Blessing Ceremonies",
+      "anchor": "blessing",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            7,
+            5
+          ],
+          "m": [
+            12
+          ]
+        },
+        "align": "center",
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "light-accent"
+      },
+      "blocks": [
+        {
+          "id": "blk_yhmadk8326",
+          "type": "image",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "image": {
+              "alt": "Courtney offering a blessing among red silk and roses",
+              "height": 1250,
+              "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&q=80",
+              "width": 1000
+            },
+            "aspect": "4:5",
+            "lightbox": false
+          },
+          "variant": "default",
+          "style": {
+            "imageTreatment": "arch"
+          }
+        },
+        {
+          "id": "blk_xyq0xjp7bb",
+          "type": "heading",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "text": "Blessing Ceremonies",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "ii. Prayer · Ritual · Threshold"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_n1e2eewmgw",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Some moments deserve to be marked. With flowers, prayer and intention, we honor the threshold you're standing at — and surround you with love as you cross it."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Shaped to your gathering — just ask",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_xsqr1q5wrc",
+          "type": "icon-list",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "items": [
+              {
+                "icon": "check",
+                "text": "Blessings for mother and the little one on the way",
+                "title": "Baby showers"
+              },
+              {
+                "icon": "check",
+                "text": "Prayers and intentions for a new year of life",
+                "title": "Birthdays"
+              },
+              {
+                "icon": "check",
+                "text": "Clearing, prayer and support to come back to calm",
+                "title": "Energetic reset"
+              }
+            ],
+            "columns": "1"
+          },
+          "variant": "checklist"
+        },
+        {
+          "id": "blk_8a4e1f82bw",
+          "type": "button",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "label": "Plan a blessing",
+            "link": {
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "role": "primary"
+          },
+          "variant": "default"
+        }
+      ]
+    },
+    {
+      "id": "sec_qdfyzy0jvk",
+      "preset": "services/detail-split@1",
+      "label": "Intuitive Healing",
+      "anchor": "healing",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            5,
+            7
+          ],
+          "m": [
+            12
+          ]
+        },
+        "align": "center",
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_16v45ansqc",
+          "type": "image",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "image": {
+              "alt": "Courtney with eyes closed and her hand on her heart",
+              "height": 1250,
+              "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1000&q=80",
+              "width": 1000
+            },
+            "aspect": "4:5",
+            "lightbox": false
+          },
+          "variant": "default",
+          "style": {
+            "imageTreatment": "arch"
+          }
+        },
+        {
+          "id": "blk_e933xttrk2",
+          "type": "heading",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "text": "Intuitive Healing Sessions",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "iii. Listen · Release · Restore"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_nn4f899g8v",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "A one-on-one session that follows what your body and spirit are asking for. We slow down, breathe, listen and gently move what's ready to move — so your nervous system can soften and you can feel like yourself again."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "90 minutes · $150 · $175 at your home",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_acf6y29jck",
+          "type": "icon-list",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "items": [
+              {
+                "icon": "check",
+                "title": "Online, in my Boulder space, or at your home in Boulder"
+              },
+              {
+                "icon": "check",
+                "title": "Breath, sound, touch and intuitive guidance"
+              },
+              {
+                "icon": "check",
+                "title": "Simple practices to take home with you"
+              }
+            ],
+            "columns": "1"
+          },
+          "variant": "checklist"
+        },
+        {
+          "id": "blk_estrr397bf",
+          "type": "button",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "label": "Book a healing",
+            "link": {
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "role": "primary"
+          },
+          "variant": "default"
+        }
+      ]
+    },
+    {
+      "id": "sec_tvnxbbzn7z",
+      "preset": "services/detail-split@1",
+      "label": "Vocal Empowerment",
+      "anchor": "voice",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            7,
+            5
+          ],
+          "m": [
+            12
+          ]
+        },
+        "align": "center",
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "dark"
+      },
+      "blocks": [
+        {
+          "id": "blk_tdx6pf43f3",
+          "type": "image",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "image": {
+              "alt": "Courtney playing crystal singing bowls during a sound session",
+              "height": 1250,
+              "src": "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=1000&q=80",
+              "width": 1000
+            },
+            "aspect": "4:5",
+            "lightbox": false
+          },
+          "variant": "default",
+          "style": {
+            "imageTreatment": "arch"
+          }
+        },
+        {
+          "id": "blk_2b9gbsqmaf",
+          "type": "heading",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "text": "Vocal Empowerment",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "iv. Breath · Sound · Truth"
+          },
+          "variant": "plain"
+        },
+        {
+          "id": "blk_arapyz8gyd",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Your voice carries your frequency. Through breath, sound and playful practice, we open the throat, release old holding and let the voice you were born with come home — no singing experience needed."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "90 minutes · $150 · $175 at your home",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default"
+        },
+        {
+          "id": "blk_ejqm0ardjq",
+          "type": "icon-list",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "items": [
+              {
+                "icon": "check",
+                "title": "For singers, speakers and anyone who feels unheard"
+              },
+              {
+                "icon": "check",
+                "title": "Breathwork, toning, vocal play and song"
+              },
+              {
+                "icon": "check",
+                "title": "Practices to keep your voice open between sessions"
+              }
+            ],
+            "columns": "1"
+          },
+          "variant": "checklist"
+        },
+        {
+          "id": "blk_9hrthytqdc",
+          "type": "button",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "label": "Find your voice",
+            "link": {
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "role": "primary"
+          },
+          "variant": "default"
+        }
+      ]
+    },
+    {
+      "id": "sec_qaxnef666d",
+      "preset": "cta/banner@1",
+      "label": "Centred banner",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "gap": "lg",
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light-accent",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_zqdek59s6s",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "Not sure which is right for you?",
+            "level": "h2",
+            "size": "auto",
+            "subheading": "Send me a note about what you're moving through, and I'll help you find the ceremony that fits."
+          },
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_5p0j4mjyjc",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Reach out",
+            "link": {
+              "page": "pg_av2p7shq0g",
+              "type": "page"
+            },
+            "role": "primary"
+          },
+          "variant": "large",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

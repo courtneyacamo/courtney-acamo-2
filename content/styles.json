@@ -2,16 +2,216 @@
   "$schema": "https://schema.openspace.host/v1/styles.json",
   "choices": {
     "palette": {
-      "brand": "oklch(0.7 0.1 300)",
-      "neutral": "cool",
+      "brand": "#0F5457",
+      "neutral": "warm",
       "contrast": "standard",
-      "source": "curated"
+      "source": "brand"
     },
     "pairing": "libre-caslon-nunito-sans",
     "density": "airy",
-    "shape": "soft",
-    "buttons": "solid",
+    "shape": "round",
+    "buttons": "pill-solid",
     "motion": "subtle",
-    "imageTreatment": "arch"
+    "imageTreatment": "arch",
+    "typography": {
+      "heading": {
+        "family": "Cormorant Garamond",
+        "category": "serif",
+        "weights": [
+          300,
+          400,
+          500
+        ],
+        "italic": true
+      },
+      "body": {
+        "family": "Jost",
+        "category": "sans-serif",
+        "weights": [
+          300,
+          400,
+          500
+        ]
+      },
+      "scale": {
+        "body": {
+          "size": 18,
+          "sizeMobile": 17,
+          "lineHeight": 1.75,
+          "weight": 300
+        },
+        "button": {
+          "size": 15,
+          "letterSpacing": 0.14,
+          "case": "uppercase",
+          "weight": 400
+        },
+        "display": {
+          "size": 96,
+          "sizeMobile": 50,
+          "lineHeight": 1.02,
+          "weight": 300
+        },
+        "eyebrow": {
+          "size": 14,
+          "letterSpacing": 0.34,
+          "case": "uppercase",
+          "weight": 400,
+          "font": "body"
+        },
+        "h1": {
+          "size": 80,
+          "sizeMobile": 46,
+          "lineHeight": 1.05,
+          "weight": 300
+        },
+        "h2": {
+          "size": 56,
+          "sizeMobile": 38,
+          "lineHeight": 1.1,
+          "weight": 300
+        },
+        "h3": {
+          "size": 30,
+          "sizeMobile": 26,
+          "lineHeight": 1.2,
+          "weight": 500
+        },
+        "lead": {
+          "size": 20,
+          "sizeMobile": 18,
+          "lineHeight": 1.8,
+          "weight": 300
+        },
+        "nav": {
+          "size": 15,
+          "letterSpacing": 0.14,
+          "case": "uppercase",
+          "weight": 400,
+          "font": "body"
+        },
+        "wordmark": {
+          "size": 26,
+          "letterSpacing": 0.06,
+          "weight": 500,
+          "font": "heading"
+        }
+      },
+      "eyebrowColor": "accent"
+    }
+  },
+  "overrides": {
+    "color": {
+      "brand": {
+        "accent": {
+          "$value": "#74003b",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#FFFFFF",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#F7E9EE",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#3c001d",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#23161c",
+          "$type": "color"
+        }
+      },
+      "dark-accent": {
+        "accent": {
+          "$value": "#E8A3BE",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#2A0F22",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#3A1630",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#F0D79A",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#F7E9EE",
+          "$type": "color"
+        }
+      },
+      "dark": {
+        "accent": {
+          "$value": "#E2BC6A",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#0B2B2E",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#0B2B2E",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#F0D79A",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#D6E6E4",
+          "$type": "color"
+        }
+      },
+      "light-accent": {
+        "accent": {
+          "$value": "#A3305F",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#FFFFFF",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#F5EEE2",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#0F5457",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#1E3B3D",
+          "$type": "color"
+        }
+      },
+      "light": {
+        "accent": {
+          "$value": "#A3305F",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#FFFFFF",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#FBF8F1",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#0F5457",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#1E3B3D",
+          "$type": "color"
+        }
+      }
+    }
   }
 }

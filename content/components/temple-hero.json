@@ -1,0 +1,118 @@
+{
+  "name": "temple-hero",
+  "label": "Temple hero with arched portal",
+  "description": "Centred gold headline, an italic line, intro and two buttons over a night-turquoise glow, with an arched photo portal standing on golden steps.",
+  "version": 1,
+  "category": "hero",
+  "fields": {
+    "cta": {
+      "kind": "link",
+      "label": "Main button link",
+      "optional": true
+    },
+    "ctaLabel": {
+      "kind": "text",
+      "label": "Main button text",
+      "optional": true,
+      "maxLength": 32
+    },
+    "eyebrow": {
+      "kind": "text",
+      "label": "Small line above",
+      "optional": true,
+      "maxLength": 60
+    },
+    "headline": {
+      "kind": "text",
+      "label": "Headline",
+      "maxLength": 90
+    },
+    "intro": {
+      "kind": "richText",
+      "label": "Introduction",
+      "optional": true,
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 320
+    },
+    "more": {
+      "kind": "link",
+      "label": "Second button link",
+      "optional": true
+    },
+    "moreLabel": {
+      "kind": "text",
+      "label": "Second button text",
+      "optional": true,
+      "maxLength": 32
+    },
+    "photo": {
+      "kind": "image",
+      "label": "Arched photo",
+      "optional": true,
+      "aspect": "5:6"
+    },
+    "tagline": {
+      "kind": "text",
+      "label": "Italic line",
+      "optional": true,
+      "maxLength": 80
+    }
+  },
+  "defaults": {
+    "cta": {
+      "type": "url",
+      "url": "/offerings/"
+    },
+    "ctaLabel": "Enter the offerings",
+    "eyebrow": "Ceremony · Healing · Voice",
+    "headline": "Remember the wellspring within",
+    "intro": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ceremony, sound and intuitive healing to help your body settle, your spirit brighten and your voice rise. In Boulder, Colorado and online."
+            }
+          ]
+        }
+      ]
+    },
+    "more": {
+      "type": "url",
+      "url": "/book/"
+    },
+    "moreLabel": "Book a session",
+    "photo": {
+      "alt": "Arms raised in prayer at sunset",
+      "height": 1256,
+      "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1080&q=80",
+      "width": 1080
+    },
+    "tagline": "come home to your soul essence"
+  },
+  "template": "<div class=\"th\">\n  <div class=\"th__glow\" aria-hidden=\"true\"></div>\n  <div class=\"th__copy\">\n    {{#if eyebrow}}<p class=\"th__eyebrow\">{{eyebrow}}</p>{{/if}}\n    <h1 class=\"th__title\">{{headline}}</h1>\n    {{#if tagline}}<p class=\"th__tagline\">{{tagline}}</p>{{/if}}\n    {{rich intro class=\"th__intro\"}}\n    <div class=\"th__actions\">\n      {{#if cta}}{{#link cta class=\"th__btn th__btn--gold\"}}{{ctaLabel}}{{/link}}{{/if}}\n      {{#if more}}{{#link more class=\"th__btn th__btn--line\"}}{{moreLabel}}{{/link}}{{/if}}\n    </div>\n  </div>\n  {{#if photo}}<div class=\"th__portal\"><div class=\"th__arch\">{{image photo sizes=\"(max-width: 767px) 90vw, 520px\" aspect=\"5:6\" loading=\"eager\"}}</div></div>\n  <div class=\"th__steps\" aria-hidden=\"true\"><span></span><span></span><span></span></div>{{/if}}\n</div>",
+  "css": ":scope { position: relative; }\n.th { position: relative; text-align: center; }\n.th__glow { position: absolute; inset: -20% -10% 0; pointer-events: none; background: radial-gradient(ellipse 45% 35% at 50% 72%, color-mix(in oklab, var(--os-color-accent) 38%, transparent), transparent 70%), radial-gradient(ellipse 28% 26% at 12% 22%, color-mix(in oklab, var(--os-color-heading) 14%, transparent), transparent 70%); }\n.th__copy { position: relative; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: var(--os-space-md); }\n.th__eyebrow { margin: 0; font-family: var(--os-font-label); font-size: var(--os-type-eyebrow-font-size); letter-spacing: var(--os-type-eyebrow-letter-spacing); text-transform: var(--os-type-eyebrow-text-transform); color: var(--os-eyebrow-color); }\n.th__title { margin: 0; font-family: var(--os-font-heading); font-weight: var(--os-font-weight-heading); font-size: var(--os-type-display-font-size); line-height: var(--os-type-display-line-height); color: var(--os-color-heading); text-wrap: balance; background: linear-gradient(100deg, color-mix(in oklab, var(--os-color-accent) 85%, black) 0%, var(--os-color-heading) 40%, var(--os-color-accent) 62%, color-mix(in oklab, var(--os-color-accent) 70%, black) 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }\n.th__tagline { margin: 0; font-family: var(--os-font-heading); font-style: italic; font-size: var(--os-type-h2-font-size); line-height: 1.15; color: var(--os-color-heading); opacity: .85; }\n.th__intro { max-width: 36em; font-size: var(--os-type-lead-font-size); line-height: var(--os-type-lead-line-height); color: var(--os-color-text); }\n.th__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--os-space-md); margin-top: var(--os-space-sm); }\n.th__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 32px; border-radius: 999px; text-decoration: none; font-family: var(--os-font-label); font-size: var(--os-type-button-font-size, 15px); letter-spacing: var(--os-type-button-letter-spacing, .14em); text-transform: uppercase; }\n.th__btn--gold { background: linear-gradient(100deg, var(--os-color-accent), var(--os-color-heading) 50%, var(--os-color-accent)); color: var(--os-color-accent-text); box-shadow: 0 0 40px color-mix(in oklab, var(--os-color-accent) 35%, transparent); }\n.th__btn--line { border: 1px solid var(--os-color-heading); color: var(--os-color-heading); }\n.th__btn:hover { opacity: .9; }\n.th__portal { position: relative; max-width: 480px; margin: var(--os-space-2xl) auto 0; padding: 14px 14px 0; }\n.th__portal::before { content: \"\"; position: absolute; inset: 0; border: 1px solid var(--os-color-accent); border-bottom: 0; border-radius: 320px 320px 0 0; opacity: .8; }\n.th__arch { position: relative; overflow: hidden; border-radius: 300px 300px 0 0; box-shadow: 0 0 110px color-mix(in oklab, var(--os-color-accent) 45%, transparent); }\n.th__arch picture, .th__arch img { display: block; width: 100%; aspect-ratio: 5 / 6; object-fit: cover; }\n.th__steps { display: flex; flex-direction: column; align-items: center; gap: 6px; }\n.th__steps span { display: block; height: 12px; background: linear-gradient(90deg, transparent, var(--os-color-accent) 20%, var(--os-color-heading) 50%, var(--os-color-accent) 80%, transparent); }\n.th__steps span:nth-child(1) { width: min(600px, 92%); }\n.th__steps span:nth-child(2) { width: min(740px, 96%); opacity: .7; }\n.th__steps span:nth-child(3) { width: min(900px, 100%); opacity: .45; }\n.th__copy > * { animation: th-rise 900ms ease both; }\n.th__copy > :nth-child(2) { animation-delay: 90ms; }\n.th__copy > :nth-child(3) { animation-delay: 180ms; }\n@keyframes th-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }\n@media (max-width: 767px) { .th__portal { max-width: 86%; margin-top: var(--os-space-xl); } .th__btn { width: 100%; } .th__actions { width: 100%; flex-direction: column; } }\n@media (prefers-reduced-motion: reduce) { .th__copy > * { animation: none; } }",
+  "section": {
+    "width": "wide",
+    "padding": {
+      "d": "xl",
+      "m": "lg"
+    },
+    "colorTheme": "dark"
+  },
+  "ai": {
+    "purpose": "The signature opening of Courtney's site: a glowing temple-like hero.",
+    "whenToUse": "First section of the home page.",
+    "avoid": "Using more than once per page."
+  }
+}
