@@ -70,7 +70,11 @@
               "alt": "Courtney kneeling in a sunlit tide pool, offering water in her open hands",
               "height": 540,
               "src": "media/2026/11/tide-pool-hero-nfsn.jpg",
-              "width": 450
+              "width": 450,
+              "focal": [
+                0.563,
+                0.044
+              ]
             },
             "tagline": "come home to your soul essence"
           }
