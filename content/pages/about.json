@@ -33,10 +33,10 @@
           "m": "lg"
         },
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#061F28",
           "to": "#0E4A55",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -155,13 +155,7 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light-accent",
-        "background": {
-          "angle": 180,
-          "from": "#0E4A55",
-          "to": "#0B1E3D",
-          "type": "gradient"
-        }
+        "colorTheme": "light-accent"
       },
       "blocks": [
         {
@@ -229,12 +223,6 @@
         "padding": {
           "d": "md",
           "m": "md"
-        },
-        "background": {
-          "angle": 180,
-          "from": "#0B1E3D",
-          "to": "#0B1E3D",
-          "type": "gradient"
         }
       },
       "blocks": [
@@ -264,13 +252,7 @@
         "gap": "xl"
       },
       "style": {
-        "colorTheme": "light",
-        "background": {
-          "angle": 180,
-          "from": "#0B1E3D",
-          "to": "#0E4A55",
-          "type": "gradient"
-        }
+        "colorTheme": "light"
       },
       "blocks": [
         {
@@ -333,13 +315,7 @@
         "gap": "lg"
       },
       "style": {
-        "colorTheme": "light-accent",
-        "background": {
-          "angle": 180,
-          "from": "#0E4A55",
-          "to": "#072A33",
-          "type": "gradient"
-        }
+        "colorTheme": "light-accent"
       },
       "blocks": [
         {

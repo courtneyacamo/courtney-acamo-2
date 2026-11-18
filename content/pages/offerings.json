@@ -26,10 +26,10 @@
           "m": "xl"
         },
         "background": {
-          "angle": 180,
+          "type": "gradient",
           "from": "#061F28",
           "to": "#0E4A55",
-          "type": "gradient"
+          "angle": 180
         }
       },
       "blocks": [
@@ -96,12 +96,6 @@
         "padding": {
           "d": "md",
           "m": "md"
-        },
-        "background": {
-          "angle": 180,
-          "from": "#0E4A55",
-          "to": "#0E4A55",
-          "type": "gradient"
         }
       },
       "blocks": [
@@ -136,13 +130,7 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light",
-        "background": {
-          "angle": 180,
-          "from": "#0E4A55",
-          "to": "#0A2F4A",
-          "type": "gradient"
-        }
+        "colorTheme": "light"
       },
       "blocks": [
         {
@@ -224,7 +212,7 @@
             "items": [
               {
                 "icon": "check",
-                "title": "Private ceremonies for one, two or a small circle"
+                "title": "Private ceremonies for one, two or up to eight people"
               },
               {
                 "icon": "check",
@@ -276,13 +264,7 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light-accent",
-        "background": {
-          "angle": 180,
-          "from": "#0A2F4A",
-          "to": "#0B1E3D",
-          "type": "gradient"
-        }
+        "colorTheme": "light-accent"
       },
       "blocks": [
         {
@@ -419,13 +401,7 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light",
-        "background": {
-          "angle": 180,
-          "from": "#0B1E3D",
-          "to": "#0E4A55",
-          "type": "gradient"
-        }
+        "colorTheme": "light"
       },
       "blocks": [
         {
@@ -540,6 +516,202 @@
       ]
     },
     {
+      "id": "sec_njf4m7gny8",
+      "label": "Healing session testimonials",
+      "anchor": "healing-stories",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            4,
+            4,
+            4
+          ],
+          "m": [
+            12
+          ]
+        },
+        "gap": "xl"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        },
+        "background": {
+          "type": "gradient",
+          "from": "#0E4A55",
+          "to": "#072A33",
+          "angle": 180
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_77am7k7f86",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“In having a session with Courtney I felt like I was working with god, I could feel spirit completely at work. She knew how and where to precisely go in my system. I was able to touch sacred sounds and places within that I have been far away from. I’m so grateful for her light and gifted abilities leading me to a greater sense of awareness, connection, and freedom.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Trisha",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Intuitive healing session",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_8k5v3802fn",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“Courtney has a gift for going with the medicine of what’s needed in doing one phone session my body was tingling and warm, my heart stopped hurting. There’s was a tenderness to it but it was the tenderness of the internal mother not of the little girl who is so sacred and hurting. Courtneys gifts are powerful, leading from her heart she is able to bring forth exactly the love, strength, tenderness and wisdom needed. She has extraordinary gifts, my energy is completely shifted and uplifted.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cheri",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Intuitive healing session",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_my0fy91qep",
+          "type": "text",
+          "v": 1,
+          "column": 2,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“Working with Courtney was so incredibly powerful it shook me too my core. I was able to reach places I had never gone and express sides of myself that had never been expressed. It was scary and a huge soul retrieval at the same time, retrieving exiled parts of my being. I feel more whole, and at ease with myself since. Courtney has a way with making me feel seen, and heard in some ways for the first time.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Tom",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Intuitive healing session",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_tvnxbbzn7z",
       "preset": "services/detail-split@1",
       "label": "Vocal Empowerment",
@@ -561,10 +733,10 @@
       "style": {
         "colorTheme": "dark-accent",
         "background": {
-          "angle": 135,
+          "type": "gradient",
           "from": "#2B1F0B",
           "to": "#4D3713",
-          "type": "gradient"
+          "angle": 135
         }
       },
       "blocks": [
@@ -680,6 +852,210 @@
       ]
     },
     {
+      "id": "sec_a2fncew2kn",
+      "label": "Vocal session testimonials",
+      "anchor": "voice-stories",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            6,
+            6
+          ],
+          "m": [
+            12
+          ]
+        },
+        "gap": "2xl"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_pj3bmtnkqc",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“There is an opening within ourselves that can only happen when we are met with the innocence that we are. Courtney is one of a rare few spiritual leaders that I have experienced capable of meeting her clients in such a pristine field. She has served to liberate not only my voice but also my evolution into a higher level of integrity and authentic leadership. Armed with an arsenal of modalities, her true authority comes from her capacity of holding a pure state of love that is aligned with my understanding of Christed consciousness.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "John Burgos",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_cqs1s1kpm2",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“Courtney is clear conduit for the divine, a role model for what can be done with voice and play. The session I had with her was more powerful than any DMT journeys I'v ever been on. She met me right where I was and used the energy to move through ancient wounds and trauma. I felt completely safe to move through whatever I needed too even if it was really ugly, there was no judgment. The amount of work we did in this short time was astounding. My entire being was flooded with light and transmutation. I feel empty, whole, healed.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bonnie",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " · "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Vocal Alchemy session",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_50771nev34",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“I want to shout from the rooftops about Courtney and what a great facilitator she is. I dare say she is the best facilitator I have ever experienced. I was able to connect with her deeper than anyone else. She took me deep into myself and led me to connecting with my higher self and deepening my confidence in my power and voice. Courtney holds a very kind and loving space. My heart is full. Thank you Courtney for being a divine vessel for assisting me and letting myself be all that I can be.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Barbara",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_8fhcrxp1np",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "blockquote",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "“Courtney Acamo is an angel and one of the most pure hearts I’ve ever met. She is the embodiment of everything she teaches and her presence alone is deeply healing and activating. She helped me dissolve one of the biggest subconscious fears I’ve had my entire life, which is the fear of singing. After a life-time of believing that “I have the worst voice in the world” and never allowing myself the joy and pleasure of singing, Courtney has helped me realize that the voice, just like everything else, is not fixed. It can be developed & refined over time, with practice & patience, just like any other instrument. Beyond the singing, however, at a much deeper level, Courtney has supported me in believing that my voice (not just my singing voice, but my voice in general) is worthy of being heard. This has been deeply healing, liberating, and empowering on so many levels and I can already feel the impact it is already having on all other areas of my life. Eternally grateful.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Stephano",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_qaxnef666d",
       "preset": "cta/banner@1",
       "label": "Centred banner",
@@ -700,10 +1076,10 @@
           "m": "lg"
         },
         "background": {
-          "angle": 135,
+          "type": "gradient",
           "from": "#F6D9E4",
           "to": "#F1DFB8",
-          "type": "gradient"
+          "angle": 135
         }
       },
       "blocks": [

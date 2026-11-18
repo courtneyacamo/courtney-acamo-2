@@ -13,7 +13,7 @@
     "buttons": "pill-solid",
     "motion": "subtle",
     "imageTreatment": "arch",
-    "appearance": "dark",
+    "appearance": "light",
     "typography": {
       "heading": {
         "family": "Cormorant Garamond",
@@ -179,11 +179,11 @@
           "$type": "color"
         },
         "background": {
-          "$value": "#FBEAF0",
+          "$value": "#FBEFF3",
           "$type": "color"
         },
         "heading": {
-          "$value": "#0F5457",
+          "$value": "#0E4A55",
           "$type": "color"
         },
         "text": {
@@ -201,11 +201,11 @@
           "$type": "color"
         },
         "background": {
-          "$value": "#FFFDFA",
+          "$value": "#FFFFFF",
           "$type": "color"
         },
         "heading": {
-          "$value": "#0F5457",
+          "$value": "#0E4A55",
           "$type": "color"
         },
         "text": {

@@ -67,10 +67,10 @@
             },
             "moreLabel": "Book a session",
             "photo": {
-              "alt": "Arms raised in prayer at sunset",
-              "height": 1256,
-              "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1080&q=80",
-              "width": 1080
+              "alt": "Courtney kneeling in a sunlit tide pool, offering water in her open hands",
+              "height": 540,
+              "src": "media/2026/11/tide-pool-hero-nfsn.jpg",
+              "width": 450
             },
             "tagline": "come home to your soul essence"
           }
@@ -95,12 +95,6 @@
         "padding": {
           "d": "md",
           "m": "md"
-        },
-        "background": {
-          "type": "gradient",
-          "from": "#0E4A55",
-          "to": "#0E4A55",
-          "angle": 180
         }
       },
       "blocks": [
@@ -135,13 +129,7 @@
         "gap": "2xl"
       },
       "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "gradient",
-          "from": "#0E4A55",
-          "to": "#0A2F4A",
-          "angle": 180
-        }
+        "colorTheme": "light"
       },
       "blocks": [
         {
@@ -241,13 +229,7 @@
         "gap": "xl"
       },
       "style": {
-        "colorTheme": "light-accent",
-        "background": {
-          "type": "gradient",
-          "from": "#0A2F4A",
-          "to": "#0B1E3D",
-          "angle": 180
-        }
+        "colorTheme": "light-accent"
       },
       "blocks": [
         {
@@ -472,13 +454,7 @@
         "gap": "xl"
       },
       "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "gradient",
-          "from": "#0B1E3D",
-          "to": "#0E4A55",
-          "angle": 180
-        }
+        "colorTheme": "light"
       },
       "blocks": [
         {
@@ -739,7 +715,7 @@
           "id": "blk_07vyx5wsg7",
           "type": "text",
           "v": 1,
-          "column": 0,
+          "column": 1,
           "fields": {
             "content": {
               "type": "doc",
@@ -777,60 +753,6 @@
                     {
                       "type": "text",
                       "text": "Bloom Retreat, Kauai",
-                      "marks": [
-                        {
-                          "type": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_zcvnsa8std",
-          "type": "text",
-          "v": 1,
-          "column": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "blockquote",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "“Courtney is clear conduit for the divine, a role model for what can be done with voice and play. The session I had with her was more powerful than any DMT journeys I'v ever been on. She met me right where I was and used the energy to move through ancient wounds and trauma. I felt completely safe to move through whatever I needed too even if it was really ugly, there was no judgment. The amount of work we did in this short time was astounding. My entire being was flooded with light and transmutation. I feel empty, whole, healed.”"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Bonnie",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " · "
-                    },
-                    {
-                      "type": "text",
-                      "text": "Vocal Alchemy session",
                       "marks": [
                         {
                           "type": "italic"
@@ -917,12 +839,6 @@
         "padding": {
           "d": "md",
           "m": "md"
-        },
-        "background": {
-          "type": "gradient",
-          "from": "#072A33",
-          "to": "#072A33",
-          "angle": 180
         }
       },
       "blocks": [
@@ -952,13 +868,7 @@
         "gap": "lg"
       },
       "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "gradient",
-          "from": "#072A33",
-          "to": "#0B1E3D",
-          "angle": 180
-        }
+        "colorTheme": "light"
       },
       "blocks": [
         {
