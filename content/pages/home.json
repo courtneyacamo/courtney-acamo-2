@@ -1008,6 +1008,25 @@
               },
               {
                 "image": {
+                  "src": "media/2026/11/img-7216-658baddb.jpg",
+                  "alt": "",
+                  "width": 1800,
+                  "height": 2400,
+                  "mediaId": "med_wme84eefyd",
+                  "focal": [
+                    0.5,
+                    0.47
+                  ]
+                }
+              },
+              {
+                "image": {
+                  "src": "media/2026/11/img-1173-2bee0570.jpg",
+                  "alt": ""
+                }
+              },
+              {
+                "image": {
                   "src": "media/2026/11/img-4746-4fc42672.jpg",
                   "alt": "",
                   "width": 960,
@@ -1043,41 +1062,6 @@
                     0.49,
                     0.51
                   ]
-                }
-              },
-              {
-                "image": {
-                  "src": "media/2026/11/img-7216-658baddb.jpg",
-                  "alt": "",
-                  "width": 1800,
-                  "height": 2400,
-                  "mediaId": "med_wme84eefyd",
-                  "focal": [
-                    0.5,
-                    0.47
-                  ]
-                }
-              },
-              {
-                "image": {
-                  "src": "media/2026/11/img-1173-2bee0570.jpg",
-                  "alt": ""
-                }
-              },
-              {
-                "image": {
-                  "alt": "Courtney seen from behind in golden sunset light",
-                  "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=1000&q=80",
-                  "width": 1000
-                }
-              },
-              {
-                "image": {
-                  "alt": "Courtney seen from behind in golden sunset light",
-                  "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=1000&q=80",
-                  "width": 1000
                 }
               }
             ],
