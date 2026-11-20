@@ -1034,17 +1034,43 @@
               },
               {
                 "image": {
-                  "alt": "A candlelit ceremony room with sheepskins and cushions",
+                  "src": "media/2026/11/img-5581-3ce88e3e.jpg",
+                  "alt": "",
+                  "width": 1280,
+                  "height": 853,
+                  "mediaId": "med_stgr4fe5bq",
+                  "focal": [
+                    0.49,
+                    0.51
+                  ]
+                }
+              },
+              {
+                "image": {
+                  "src": "media/2026/11/img-7216-658baddb.jpg",
+                  "alt": "",
+                  "width": 1800,
+                  "height": 2400,
+                  "mediaId": "med_wme84eefyd",
+                  "focal": [
+                    0.5,
+                    0.47
+                  ]
+                }
+              },
+              {
+                "image": {
+                  "alt": "Courtney seen from behind in golden sunset light",
                   "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?w=1000&q=80",
+                  "src": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=1000&q=80",
                   "width": 1000
                 }
               },
               {
                 "image": {
-                  "alt": "Hands holding rose petals and flowers for a blessing",
+                  "alt": "Courtney seen from behind in golden sunset light",
                   "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&q=80",
+                  "src": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=1000&q=80",
                   "width": 1000
                 }
               },
