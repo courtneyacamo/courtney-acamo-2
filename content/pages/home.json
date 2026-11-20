@@ -316,10 +316,15 @@
                 },
                 "heading": "Blessing Ceremonies",
                 "image": {
-                  "alt": "Courtney offering a blessing among red silk and roses",
-                  "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&q=80",
-                  "width": 1000
+                  "src": "media/2026/11/1x9a0079-1f8febe2.jpg",
+                  "alt": "",
+                  "width": 2400,
+                  "height": 1600,
+                  "mediaId": "med_j05ha669q0",
+                  "focal": [
+                    0.596,
+                    0.681
+                  ]
                 },
                 "link": {
                   "anchor": "blessing",
