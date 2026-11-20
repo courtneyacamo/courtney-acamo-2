@@ -995,10 +995,15 @@
             "images": [
               {
                 "image": {
-                  "alt": "A tea circle gathered around a candlelit altar",
-                  "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1000&q=80",
-                  "width": 1000
+                  "src": "media/2026/11/ae7c5cf3-7258-4930-a6ae-d54f8cb1e688-c00edca1.jpg",
+                  "alt": "",
+                  "width": 1124,
+                  "height": 1500,
+                  "mediaId": "med_323nn6qcsn",
+                  "focal": [
+                    0.52,
+                    0.54
+                  ]
                 }
               },
               {
