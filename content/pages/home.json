@@ -1008,10 +1008,15 @@
               },
               {
                 "image": {
-                  "alt": "A circle of women in white on the beach in Kauai",
-                  "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1000&q=80",
-                  "width": 1000
+                  "src": "media/2026/11/img-4746-4fc42672.jpg",
+                  "alt": "",
+                  "width": 960,
+                  "height": 1280,
+                  "mediaId": "med_h46e4agky8",
+                  "focal": [
+                    0.52,
+                    0.67
+                  ]
                 }
               },
               {
