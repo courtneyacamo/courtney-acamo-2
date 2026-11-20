@@ -350,10 +350,15 @@
                 },
                 "heading": "Intuitive Healing",
                 "image": {
-                  "alt": "Courtney with her hands together in prayer",
-                  "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1000&q=80",
-                  "width": 1000
+                  "src": "media/2026/11/1x9a0161-e3750d6f.jpg",
+                  "alt": "",
+                  "width": 2400,
+                  "height": 1600,
+                  "mediaId": "med_0f2fesgkrq",
+                  "focal": [
+                    0.48,
+                    0.44
+                  ]
                 },
                 "link": {
                   "anchor": "healing",
