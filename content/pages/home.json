@@ -444,9 +444,6 @@
               "content": [
                 {
                   "type": "paragraph",
-                  "attrs": {
-                    "preset": "eyebrow"
-                  },
                   "content": [
                     {
                       "type": "text",
