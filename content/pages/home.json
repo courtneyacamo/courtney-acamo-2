@@ -1021,10 +1021,15 @@
               },
               {
                 "image": {
-                  "alt": "Two women in a long embrace after ceremony",
-                  "height": 1250,
-                  "src": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=1000&q=80",
-                  "width": 1000
+                  "src": "media/2026/11/img-1498-e923caec.jpg",
+                  "alt": "",
+                  "width": 960,
+                  "height": 720,
+                  "mediaId": "med_nfe5jfz29e",
+                  "focal": [
+                    0.49,
+                    0.44
+                  ]
                 }
               },
               {
