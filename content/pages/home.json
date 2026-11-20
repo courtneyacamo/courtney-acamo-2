@@ -347,8 +347,15 @@
                 },
                 "heading": "Tea Ceremonies",
                 "image": {
-                  "src": "media/2026/11/img-1708-b676f7dd.jpg",
-                  "alt": ""
+                  "src": "media/2026/11/img-1750-e0a230cd.jpg",
+                  "alt": "",
+                  "width": 1800,
+                  "height": 2400,
+                  "mediaId": "med_0jzg1naeav",
+                  "focal": [
+                    0.49,
+                    0.48
+                  ]
                 },
                 "link": {
                   "anchor": "tea",
