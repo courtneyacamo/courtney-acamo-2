@@ -274,6 +274,71 @@
                       "content": [
                         {
                           "type": "text",
+                          "text": "Breath, sound and play to free your voice — in song, in speech, in life."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Vocal Alchemy",
+                "image": {
+                  "src": "media/2026/11/img-6495-75375483.jpg",
+                  "alt": "",
+                  "focal": [
+                    0.341,
+                    0.751
+                  ]
+                },
+                "link": {
+                  "anchor": "voice",
+                  "page": "pg_rd3xj4d0fg",
+                  "type": "page"
+                },
+                "linkLabel": "Learn more"
+              },
+              {
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "One-on-one sessions to calm your system, let go of what's heavy and hear your own knowing again."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "heading": "Intuitive Healing",
+                "image": {
+                  "src": "media/2026/11/1x9a0161-e3750d6f.jpg",
+                  "alt": "",
+                  "width": 2400,
+                  "height": 1600,
+                  "mediaId": "med_0f2fesgkrq",
+                  "focal": [
+                    0.48,
+                    0.44
+                  ]
+                },
+                "link": {
+                  "anchor": "healing",
+                  "page": "pg_rd3xj4d0fg",
+                  "type": "page"
+                },
+                "linkLabel": "Learn more"
+              },
+              {
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
                           "text": "Leaf, water and quiet. A slow ritual to arrive, settle and listen inward."
                         }
                       ]
@@ -328,67 +393,6 @@
                 },
                 "link": {
                   "anchor": "blessing",
-                  "page": "pg_rd3xj4d0fg",
-                  "type": "page"
-                },
-                "linkLabel": "Learn more"
-              },
-              {
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "One-on-one sessions to calm your system, let go of what's heavy and hear your own knowing again."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "heading": "Intuitive Healing",
-                "image": {
-                  "src": "media/2026/11/1x9a0161-e3750d6f.jpg",
-                  "alt": "",
-                  "width": 2400,
-                  "height": 1600,
-                  "mediaId": "med_0f2fesgkrq",
-                  "focal": [
-                    0.48,
-                    0.44
-                  ]
-                },
-                "link": {
-                  "anchor": "healing",
-                  "page": "pg_rd3xj4d0fg",
-                  "type": "page"
-                },
-                "linkLabel": "Learn more"
-              },
-              {
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Breath, sound and play to free your voice — in song, in speech, in life."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "heading": "Vocal Alchemy",
-                "image": {
-                  "src": "media/2026/11/img-6495-75375483.jpg",
-                  "alt": ""
-                },
-                "link": {
-                  "anchor": "voice",
                   "page": "pg_rd3xj4d0fg",
                   "type": "page"
                 },
